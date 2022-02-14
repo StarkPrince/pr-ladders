@@ -86,7 +86,7 @@ export default function Home()
           <div>
             <input type="text" onChange={(e) => setUser(e.target.value)} value={user}
               placeholder="Codeforces Handle" name='handle' className="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
-            {!user && <p class="text-red-500 text-xs px-4 italic">Please enter a username</p>}
+            {!user && <p className="text-red-500 text-xs px-4 italic">Please enter a username</p>}
           </div>
           <div className='flex item-start'>
             <div className='mx-auto py-2'>
@@ -97,11 +97,11 @@ export default function Home()
       </div>
       {data.length > 0 &&
         <div className="container p-4 m-6 flex flex-col">
-          <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-            <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-              <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-                <table class="min-w-full divide-y divide-gray-200">
-                  <thead class="bg-gray-50">
+          <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+            <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+              <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
                     <tr>
                       <th className="px-10 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Problem</th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Rating</th>
@@ -109,28 +109,28 @@ export default function Home()
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tags</th>
                     </tr>
                   </thead>
-                  <tbody class="bg-white divide-y divide-gray-200">
+                  <tbody className="bg-white divide-y divide-gray-200">
                     {data.map((prob, i) =>
                       <tr key={i}>
-                        <td class="px-6 py-4 whitespace-nowrap">
-                          <div class="ml-4">
-                            <div class="text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="ml-4">
+                            <div className="text-sm font-medium text-gray-900">
                               <a href={`https://codeforces.com/problemset/problem/${prob.contestId}/${prob.index}`}>
                                 {prob.name}
                               </a>
                             </div>
                           </div>
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap">
-                          <div class="text-sm text-gray-900">{prob.rating}</div>
+                        <td className="px-6 py-4 whitespace-nowrap">
+                          <div className="text-sm text-gray-900">{prob.rating}</div>
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap mx-auto">
-                          <div class="text-sm text-gray-900">{prob.frequency}</div>
+                        <td className="px-6 py-4 whitespace-nowrap mx-auto">
+                          <div className="text-sm text-gray-900">{prob.frequency}</div>
                         </td>
-                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                        <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                           <div className='flex flex-row'>
 
-                            <div class="text-sm text-gray-600">{prob.tags.slice(0, 3).join(",")}</div>
+                            <div className="text-sm text-gray-600">{prob.tags.slice(0, 3).join(",")}</div>
                           </div>
                           {console.log(prob.tags)}
                         </td>
