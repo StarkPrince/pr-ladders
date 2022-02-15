@@ -12,21 +12,32 @@ export default function Home()
   const [user, setUser] = useState('games.princeraj');
   const [data, setData] = useState([]);
 
-  useEffect(async () =>
+  useEffect(() =>
   {
-    const res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
+    let solved = new Set()
+    var res;
+    const fetchData = async () =>
+    {
+      try {
+        res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
+        for (let i = 0; i < res?.data.result.length; i++) {
+          if (res.data.result[i].verdict === 'OK') {
+            solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
+          }
+        }
+      }
+      catch (e) {
+        console.log(e)
+      }
+    }
+    fetchData();
+
     const resData = customData(lowRating, highRating);
     resData.sort((a, b) => b.frequency - a.frequency);
     let dataToSet = []
-    let solved = new Set()
 
-    for (let i = 0; i < res.data.result.length; i++) {
-      if (res.data.result[i].verdict === 'OK') {
-        solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
-      }
-    }
     for (let i = 0; i < resData.length && dataToSet.length < 100; i++) {
-      if (solved && !solved?.has(resData[i].contestId + '_' + resData[i].index)) {
+      if (solved && !solved?.has(resData[i]?.contestId + '_' + resData[i]?.index)) {
         dataToSet.push(resData[i])
       }
     }
