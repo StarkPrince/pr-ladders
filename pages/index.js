@@ -1,16 +1,38 @@
 import Head from 'next/head'
-import { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useState, useEffect, useCallback } from 'react';
 import customData from './data/index.js';
-
-
+import axios from 'axios';
+import { debounce } from "lodash";
+import { toast } from 'react-toastify';
 
 export default function Home()
 {
+  const request = debounce((func, val) =>
+  {
+    func(val);
+  }, 1000);
+
   const [lowRating, setLowRating] = useState(1400);
   const [highRating, setHighRating] = useState(1800);
   const [user, setUser] = useState('games.princeraj');
   const [data, setData] = useState([]);
+
+  const debouceRequest = useCallback((func, val) => request(func, val), []);
+
+  const onLowRatingChange = e =>
+  {
+    debouceRequest(setLowRating, parseInt(e.target.value));
+  };
+
+  const onHighRatingChange = e =>
+  {
+    debouceRequest(setHighRating, parseInt(e.target.value)); // Remove this line will lead to normal denounce
+  };
+
+  const onUserChange = e =>
+  {
+    debouceRequest(setUser, e.target.value); // Remove this line will lead to normal denounce
+  };
 
   useEffect(() =>
   {
@@ -18,16 +40,11 @@ export default function Home()
     var res;
     const fetchData = async () =>
     {
-      try {
-        res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
-        for (let i = 0; i < res?.data.result.length; i++) {
-          if (res.data.result[i].verdict === 'OK') {
-            solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
-          }
+      res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
+      for (let i = 0; i < res?.data.result.length; i++) {
+        if (res.data.result[i].verdict === 'OK') {
+          solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
         }
-      }
-      catch (e) {
-        console.log(e)
       }
     }
     fetchData();
@@ -57,15 +74,15 @@ export default function Home()
           </h2>
           <div className="flex flex-wrap -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3">
-              <input type="number" placeholder='Lower Rating' value={lowRating} onChange={(e) => setLowRating(parseInt(e.target.value))} name='lower' className='appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500' />
+              <input type="number" placeholder='Lower Rating' onChange={(e) => onLowRatingChange(e)} name='lower' className='appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500' />
             </div>
             <div className="w-full md:w-1/2 px-3 mb-2 md:mb-0">
-              <input type="number" placeholder='Upper Rating' value={highRating}
-                onChange={(e) => setHighRating(parseInt(e.target.value))} name='upper' className="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
+              <input type="number" placeholder='Upper Rating'
+                onChange={(e) => onHighRatingChange(e)} name='upper' className="appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
             </div>
           </div>
           <div>
-            <input type="text" onChange={(e) => setUser(e.target.value)} value={user}
+            <input type="text" onChange={e => onUserChange(e)}
               placeholder="Codeforces Handle" name='handle' className="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
             {!user && <p className="text-red-500 text-xs px-4 italic">Please enter a username</p>}
           </div>
