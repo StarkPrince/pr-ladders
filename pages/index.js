@@ -75,12 +75,7 @@ export default function Home()
           <h2 className="text-center text-teal-500 text-xl font-bold mb-4">
             Codeforces Questions
           </h2>
-          <p className="text-center text-teal-500 text-xl font-bold mb-4">
-            <input type="checkbox" value={hideTags} onChange={() => setHideTags(!hideTags)} />
-            <span className="text-gray-700 text-sm font-bold mb-2 p-3">
-              Show Tags
-            </span>
-          </p>
+
           <div className="flex flex-wrap -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3">
               <input type="number" placeholder='Lower Rating' onChange={(e) => onLowRatingChange(e)} name='lower' className='appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500' />
@@ -93,9 +88,25 @@ export default function Home()
           <div>
             <input type="text" onChange={e => onUserChange(e)}
               placeholder="Codeforces Handle" name='handle' className="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
-            {!user && <p className="text-red-500 text-xs px-4 italic">Please enter a username</p>}
-            {userNotfound && <p className="text-red-500 text-xs px-4 italic">User not found</p>}
+            {!user && <p className="text-red-500 text-xs px-4 bold mt-2">
+              <svg className="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Please enter a username</p>}
+            {userNotfound && user &&
+              <p className="text-red-500 text-xs px-4 bold mt-2">
+                <svg className="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                User not found
+              </p>}
           </div>
+          <p className=" text-teal-500 text-xl font-bold mb-2 mt-2">
+            <input type="checkbox" className='m-1' value={hideTags} onChange={() => setHideTags(!hideTags)} />
+            <span className="text-gray-700 text-sm font-bold px-1">
+              Show Tags
+            </span>
+          </p>
         </div>
       </div>
       {data.length > 0 &&
@@ -116,13 +127,9 @@ export default function Home()
                     {data.map((prob, i) =>
                       <tr key={i} className="hover:bg-slate-500">
                         <td className="px-6 py-4 whitespace-nowrap">
-                          <div className="ml-4">
-                            <div className="text-sm font-medium text-gray-900">
-                              <a href={`https://codeforces.com/problemset/problem/${prob.contestId}/${prob.index}`} target="_blank" >
-                                {prob.name}
-                              </a>
-                            </div>
-                          </div>
+                          <a className="ml-4 text-sm font-medium text-gray-900" href={`https://codeforces.com/problemset/problem/${prob.contestId}/${prob.index}`} target="_blank" rel="noopener noreferrer" >
+                            {prob.name}
+                          </a>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="text-sm text-gray-900">{prob.rating}</div>
