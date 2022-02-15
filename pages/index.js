@@ -3,18 +3,21 @@ import { useState, useEffect, useCallback } from 'react';
 import customData from './data/index.js';
 import axios from 'axios';
 import { debounce } from "lodash";
+import Link from 'next/link';
 
 export default function Home()
 {
   const request = debounce((func, val) =>
   {
     func(val);
-  }, 1000);
+  }, 700);
 
   const [lowRating, setLowRating] = useState(1400);
   const [highRating, setHighRating] = useState(1800);
   const [user, setUser] = useState('games.princeraj');
   const [data, setData] = useState([]);
+  const [hideTags, setHideTags] = useState(true);
+  const [userNotfound, setUserNotfound] = useState(false);
 
   const debouceRequest = useCallback((func, val) => request(func, val), []);
 
@@ -41,9 +44,10 @@ export default function Home()
             solved.add(prob.problem.contestId + '_' + prob.problem.index)
           }
         });
+        setUserNotfound(false);
       }
       catch (e) {
-        console.error(e)
+        setUserNotfound(true);
       }
 
       const resData = customData(lowRating, highRating);
@@ -55,7 +59,7 @@ export default function Home()
           dataToSet.push(prob)
         }
       })
-      await setData(dataToSet)
+      await setData(dataToSet.slice(0, 100))
     }
     fetchData();
   }, [user, lowRating, highRating])
@@ -69,8 +73,14 @@ export default function Home()
       <div className="flex justify-center">
         <div className="w-full max-w-sm p-4 bg-gray-200 rounded">
           <h2 className="text-center text-teal-500 text-xl font-bold mb-4">
-            {user}
+            Codeforces Questions
           </h2>
+          <p className="text-center text-teal-500 text-xl font-bold mb-4">
+            <input type="checkbox" value={hideTags} onChange={() => setHideTags(!hideTags)} />
+            <span className="text-gray-700 text-sm font-bold mb-2 p-3">
+              Show Tags
+            </span>
+          </p>
           <div className="flex flex-wrap -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3">
               <input type="number" placeholder='Lower Rating' onChange={(e) => onLowRatingChange(e)} name='lower' className='appearance-none block w-full text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500' />
@@ -84,6 +94,7 @@ export default function Home()
             <input type="text" onChange={e => onUserChange(e)}
               placeholder="Codeforces Handle" name='handle' className="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
             {!user && <p className="text-red-500 text-xs px-4 italic">Please enter a username</p>}
+            {userNotfound && <p className="text-red-500 text-xs px-4 italic">User not found</p>}
           </div>
         </div>
       </div>
@@ -98,16 +109,16 @@ export default function Home()
                       <th className="px-10 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Problem</th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Rating</th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Frequency</th>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tags</th>
+                      {!hideTags && <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tags</th>}
                     </tr>
                   </thead>
                   <tbody className="bg-white divide-y divide-gray-200">
                     {data.map((prob, i) =>
-                      <tr key={i}>
+                      <tr key={i} className="hover:bg-slate-500">
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="ml-4">
                             <div className="text-sm font-medium text-gray-900">
-                              <a href={`https://codeforces.com/problemset/problem/${prob.contestId}/${prob.index}`}>
+                              <a href={`https://codeforces.com/problemset/problem/${prob.contestId}/${prob.index}`} target="_blank" >
                                 {prob.name}
                               </a>
                             </div>
@@ -119,12 +130,12 @@ export default function Home()
                         <td className="px-6 py-4 whitespace-nowrap mx-auto">
                           <div className="text-sm text-gray-900">{prob.frequency}</div>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                          <div className='flex flex-row'>
-
-                            <div className="text-sm text-gray-600">{prob.tags.slice(0, 3).join(",")}</div>
-                          </div>
-                        </td>
+                        {!hideTags &&
+                          <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                            <div className='flex flex-row'>
+                              <div className="text-sm text-gray-600">{prob.tags.slice(0, 3).join(",")}</div>
+                            </div>
+                          </td>}
                       </tr>
                     )}
                   </tbody>
