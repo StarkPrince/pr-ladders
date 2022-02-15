@@ -3,7 +3,6 @@ import { useState, useEffect, useCallback } from 'react';
 import customData from './data/index.js';
 import axios from 'axios';
 import { debounce } from "lodash";
-import { toast } from 'react-toastify';
 
 export default function Home()
 {
@@ -15,50 +14,51 @@ export default function Home()
   const [lowRating, setLowRating] = useState(1400);
   const [highRating, setHighRating] = useState(1800);
   const [user, setUser] = useState('games.princeraj');
+  const [fetchedData, setFetchedData] = useState([]);
   const [data, setData] = useState([]);
 
   const debouceRequest = useCallback((func, val) => request(func, val), []);
 
-  const onLowRatingChange = e =>
-  {
-    debouceRequest(setLowRating, parseInt(e.target.value));
-  };
+  const onLowRatingChange = e => debouceRequest(setLowRating, parseInt(e.target.value));
 
-  const onHighRatingChange = e =>
-  {
-    debouceRequest(setHighRating, parseInt(e.target.value)); // Remove this line will lead to normal denounce
-  };
+  const onHighRatingChange = e => debouceRequest(setHighRating, parseInt(e.target.value)); // Remove this line will lead to normal denounce
 
-  const onUserChange = e =>
-  {
-    debouceRequest(setUser, e.target.value); // Remove this line will lead to normal denounce
-  };
+  const onUserChange = e => debouceRequest(setUser, e.target.value); // Remove this line will lead to normal denounce
 
   useEffect(() =>
   {
-    let solved = new Set()
-    var res;
     const fetchData = async () =>
     {
-      res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
-      for (let i = 0; i < res?.data.result.length; i++) {
-        if (res.data.result[i].verdict === 'OK') {
-          solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
-        }
+      //declare variables
+      let solved = new Set()
+      let dataToSet = []
+
+      //fetch the user submission and get the set of solved problems
+      try {
+        const res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
+        await res.data.result.forEach(prob =>
+        {
+          if (prob.verdict === 'OK') {
+            solved.add(prob.problem.contestId + '_' + prob.problem.index)
+          }
+        });
       }
+      catch (e) {
+        console.error(e)
+      }
+
+      const resData = customData(lowRating, highRating);
+      resData.sort((a, b) => b.frequency - a.frequency);
+
+      await resData.map(prob =>
+      {
+        if (!solved.has(prob.contestId + '_' + prob.index)) {
+          dataToSet.push(prob)
+        }
+      })
+      await setData(dataToSet)
     }
     fetchData();
-
-    const resData = customData(lowRating, highRating);
-    resData.sort((a, b) => b.frequency - a.frequency);
-    let dataToSet = []
-
-    for (let i = 0; i < resData.length && dataToSet.length < 100; i++) {
-      if (solved && !solved?.has(resData[i]?.contestId + '_' + resData[i]?.index)) {
-        dataToSet.push(resData[i])
-      }
-    }
-    setData(dataToSet)
   }, [user, lowRating, highRating])
 
   return (
