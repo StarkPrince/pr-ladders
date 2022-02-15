@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import customData from './data/index.js';
 
+
+
 export default function Home()
 {
   const [lowRating, setLowRating] = useState(1400);
@@ -10,43 +12,11 @@ export default function Home()
   const [user, setUser] = useState('games.princeraj');
   const [data, setData] = useState([]);
 
-
-  const handleSubmit = async (e) =>
-  {
-    e.preventDefault();
-    if (!user) {
-      return;
-    }
-    const res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
-    let solved = new Set()
-    let dataToSet = []
-
-    const resData = customData(lowRating, highRating);
-    resData.sort((a, b) => b.frequency - a.frequency);
-
-    setLowRating(Math.max(Math.min(3400, Math.round(lowRating / 100) * 100), 800));
-    setHighRating(Math.max(Math.min(3400, Math.round(highRating / 100) * 100)), 900);
-
-    for (let i = 0; i < res.data.result.length; i++) {
-      if (res.data.result[i].verdict === 'OK') {
-        solved.add(res.data.result[i].problem.contestId + '_' + res.data.result[i].problem.index)
-      }
-    }
-
-    for (let i = 0; i < resData.length && dataToSet.length < 100; i++) {
-      if (solved && !solved?.has(resData[i].contestId + '_' + resData[i].index)) {
-        dataToSet.push(resData[i]);
-      }
-    }
-    setData(dataToSet);
-  }
-
   useEffect(async () =>
   {
     const res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
     const resData = customData(lowRating, highRating);
     resData.sort((a, b) => b.frequency - a.frequency);
-
     let dataToSet = []
     let solved = new Set()
 
@@ -61,7 +31,7 @@ export default function Home()
       }
     }
     setData(dataToSet)
-  }, [])
+  }, [user, lowRating, highRating])
 
   return (
     <div className="container p-4 mt-2">
@@ -70,9 +40,9 @@ export default function Home()
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center">
-        <form className="w-full max-w-sm p-4 bg-gray-200 rounded" onSubmit={handleSubmit}>
+        <div className="w-full max-w-sm p-4 bg-gray-200 rounded">
           <h2 className="text-center text-teal-500 text-xl font-bold mb-4">
-            Codeforces Nice problems
+            {user}
           </h2>
           <div className="flex flex-wrap -mx-3 mb-2">
             <div className="w-full md:w-1/2 px-3">
@@ -88,12 +58,7 @@ export default function Home()
               placeholder="Codeforces Handle" name='handle' className="appearance-none block w-full  text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" />
             {!user && <p className="text-red-500 text-xs px-4 italic">Please enter a username</p>}
           </div>
-          <div className='flex item-start'>
-            <div className='mx-auto py-2'>
-              <button type='submit' className="flex justify-center py-2 px-4 border border-transparent text-sm font-semibold rounded-full text-white bg-teal-500 hover:bg-green-700"> Submit </button>
-            </div>
-          </div>
-        </form>
+        </div>
       </div>
       {data.length > 0 &&
         <div className="container p-4 m-6 flex flex-col">
@@ -132,7 +97,6 @@ export default function Home()
 
                             <div className="text-sm text-gray-600">{prob.tags.slice(0, 3).join(",")}</div>
                           </div>
-                          {console.log(prob.tags)}
                         </td>
                       </tr>
                     )}
