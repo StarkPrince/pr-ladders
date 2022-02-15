@@ -14,7 +14,6 @@ export default function Home()
   const [lowRating, setLowRating] = useState(1400);
   const [highRating, setHighRating] = useState(1800);
   const [user, setUser] = useState('games.princeraj');
-  const [fetchedData, setFetchedData] = useState([]);
   const [data, setData] = useState([]);
 
   const debouceRequest = useCallback((func, val) => request(func, val), []);
@@ -64,7 +63,7 @@ export default function Home()
   return (
     <div className="container p-4 mt-2">
       <Head>
-        <title>C3 Ladders</title>
+        <title>PR Ladders</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex justify-center">
