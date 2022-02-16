@@ -3,66 +3,104 @@ import { useState, useEffect, useCallback } from 'react';
 import customData from './data/index.js';
 import axios from 'axios';
 import { debounce } from "lodash";
-import Link from 'next/link';
 
 export default function Home()
 {
   const request = debounce((func, val) =>
   {
-    func(val);
-  }, 700);
+    if (val[1] !== "user") {
+      val[0] = Math.min(3400, Math.max(Math.round(val[0] / 100) * 100, 800))
+    }
+    func(val[0]);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem(val[1], val[0]);
+    }
+  }, 500);
 
   const [lowRating, setLowRating] = useState(1400);
   const [highRating, setHighRating] = useState(1800);
-  const [user, setUser] = useState('games.princeraj');
+  const [user, setUser] = useState('');
   const [data, setData] = useState([]);
   const [hideTags, setHideTags] = useState(true);
   const [userNotfound, setUserNotfound] = useState(false);
+  const sol = new Set();
+  const [solved, setSolved] = useState(sol);
 
   const debouceRequest = useCallback((func, val) => request(func, val), []);
 
-  const onLowRatingChange = e => debouceRequest(setLowRating, parseInt(e.target.value));
-
-  const onHighRatingChange = e => debouceRequest(setHighRating, parseInt(e.target.value)); // Remove this line will lead to normal denounce
-
-  const onUserChange = e => debouceRequest(setUser, e.target.value); // Remove this line will lead to normal denounce
+  const onLowRatingChange = e => debouceRequest(setLowRating, [parseInt(e.target.value), "lowRating"]);
+  const onHighRatingChange = e => debouceRequest(setHighRating, [parseInt(e.target.value), "highRating"]);
+  const onUserChange = e => debouceRequest(setUser, [e.target.value, "user"]);
 
   useEffect(() =>
   {
     const fetchData = async () =>
     {
       //declare variables
-      let solved = new Set()
-      let dataToSet = []
-
+      let fetchSolved = new Set()
       //fetch the user submission and get the set of solved problems
       try {
         const res = await axios.get(`https://codeforces.com/api/user.status?handle=${user}`)
         await res.data.result.forEach(prob =>
         {
           if (prob.verdict === 'OK') {
-            solved.add(prob.problem.contestId + '_' + prob.problem.index)
+            fetchSolved.add(prob.problem.contestId + '_' + prob.problem.index)
           }
         });
         setUserNotfound(false);
+        setSolved(fetchSolved);
       }
       catch (e) {
         setUserNotfound(true);
       }
-
-      const resData = customData(lowRating, highRating);
-      resData.sort((a, b) => b.frequency - a.frequency);
-
-      await resData.map(prob =>
-      {
-        if (!solved.has(prob.contestId + '_' + prob.index)) {
-          dataToSet.push(prob)
-        }
-      })
-      await setData(dataToSet.slice(0, 100))
     }
     fetchData();
-  }, [user, lowRating, highRating])
+  }, [user]);
+
+  useEffect(() =>
+  {
+    const dataToSet = [];
+    const resData = customData(lowRating, highRating);
+    resData.sort((a, b) => b.frequency - a.frequency);
+
+    resData.map(prob =>
+    {
+      if (solved && !solved.has(prob.contestId + '_' + prob.index)) {
+        dataToSet.push(prob)
+      }
+    })
+    setData(dataToSet.slice(0, 100))
+  }, [lowRating, highRating, solved]);
+
+  // set the user from local storage if it exists
+  useEffect(() =>
+  {
+    if (typeof window !== 'undefined') {
+      const user = localStorage.getItem("user");
+      const lowRating = localStorage.getItem("lowRating");
+      const highRating = localStorage.getItem("highRating");
+      if (user) {
+        setUser(user);
+      }
+      if (lowRating) {
+        setLowRating(parseInt(lowRating));
+      }
+      if (highRating) {
+        setHighRating(parseInt(highRating));
+      }
+    }
+    const dataToSet = [];
+    const resData = customData(lowRating, highRating);
+    resData.sort((a, b) => b.frequency - a.frequency);
+
+    resData.map(prob =>
+    {
+      if (!solved.has(prob.contestId + '_' + prob.index)) {
+        dataToSet.push(prob)
+      }
+    })
+    setData(dataToSet.slice(0, 100))
+  }, []);
 
   return (
     <div className="container p-4 mt-2">
@@ -92,8 +130,14 @@ export default function Home()
               <svg className="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              Please enter a username</p>}
-            {userNotfound && user &&
+              Please enter a username</p>
+            }
+            {user && <p className="text-green-500 text-xs px-2 bold mt-2">Current user:
+              <a className="ml-4 text-sm font-medium text-gray-900" href={`https://codeforces.com/profile/${user}`} target="_blank" rel="noopener noreferrer" >
+                {user}
+              </a>
+            </p>}
+            {userNotfound &&
               <p className="text-red-500 text-xs px-4 bold mt-2">
                 <svg className="h-4 w-4 inline mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
