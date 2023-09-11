@@ -1,1 +1,5307 @@
-{"message": "Ladder fetched", "data": [{"_id": "6202a62232380906ee1b2672", "index": "E", "name": "Replace the Numbers", "tags": ["constructive algorithms", "data structures", "dsu", "implementation"], "rating": 1900, "frequency": 1563, "__v": 0, "contestId": "1620"}, {"_id": "6202a62232380906ee1b2420", "index": "D", "name": "Not Adding", "tags": ["brute force", "dp", "math", "number theory"], "rating": 1900, "frequency": 1510, "__v": 0, "contestId": "1627"}, {"_id": "6202a62032380906ee1b1bc0", "index": "B2", "name": "Palindrome Game (hard version)", "tags": ["constructive algorithms", "games"], "rating": 1900, "frequency": 1260, "__v": 0, "contestId": "1527"}, {"_id": "6202a62332380906ee1b26c7", "index": "C", "name": "Dijkstra?", "tags": ["graphs", "shortest paths"], "rating": 1900, "frequency": 1170, "__v": 0, "contestId": "20"}, {"_id": "6202a62032380906ee1b1c0c", "index": "C2", "name": "Guessing the Greatest (hard version)", "tags": ["binary search", "interactive"], "rating": 1900, "frequency": 1092, "__v": 0, "contestId": "1486"}, {"_id": "6202a61f32380906ee1b1831", "index": "F1", "name": "Nearest Beautiful Number (easy version)", "tags": ["binary search", "bitmasks", "brute force", "constructive algorithms", "dfs and similar", "greedy"], "rating": 1900, "frequency": 1061, "__v": 0, "contestId": "1560"}, {"_id": "6202a61c32380906ee1b13d0", "index": "D", "name": "Replace by MEX", "tags": ["brute force", "constructive algorithms", "sortings"], "rating": 1900, "frequency": 1002, "__v": 0, "contestId": "1375"}, {"_id": "6202a62232380906ee1b23f3", "index": "C", "name": "Need for Pink Slips", "tags": ["bitmasks", "brute force", "dfs and similar", "implementation", "math", "probabilities"], "rating": 1900, "frequency": 974, "__v": 0, "contestId": "1543"}, {"_id": "6202a62232380906ee1b23f0", "index": "F", "name": "Array Stabilization (GCD version)", "tags": ["binary search", "brute force", "data structures", "divide and conquer", "number theory", "two pointers"], "rating": 1900, "frequency": 909, "__v": 0, "contestId": "1547"}, {"_id": "6202a61e32380906ee1b16f2", "index": "D", "name": "TediousLee", "tags": ["dp", "graphs", "greedy", "math", "trees"], "rating": 1900, "frequency": 906, "__v": 0, "contestId": "1369"}, {"_id": "6202a62332380906ee1b28b1", "index": "G", "name": "MinOr Tree", "tags": ["bitmasks", "dfs and similar", "dsu", "graphs", "greedy"], "rating": 1900, "frequency": 892, "__v": 0, "contestId": "1624"}, {"_id": "6202a62032380906ee1b1bdd", "index": "F", "name": "Education", "tags": ["brute force", "dp", "greedy", "implementation"], "rating": 1900, "frequency": 891, "__v": 0, "contestId": "1512"}, {"_id": "6202a61e32380906ee1b1714", "index": "E", "name": "Maximum Subsequence Value", "tags": ["brute force", "constructive algorithms"], "rating": 1900, "frequency": 869, "__v": 0, "contestId": "1365"}, {"_id": "6202a61f32380906ee1b179a", "index": "D", "name": "Phoenix and Science", "tags": ["binary search", "constructive algorithms", "greedy", "implementation", "math"], "rating": 1900, "frequency": 849, "__v": 0, "contestId": "1348"}, {"_id": "6202a61f32380906ee1b174c", "index": "D", "name": "The Best Vacation", "tags": ["binary search", "brute force", "greedy", "implementation", "two pointers"], "rating": 1900, "frequency": 832, "__v": 0, "contestId": "1358"}, {"_id": "6202a62132380906ee1b1eb5", "index": "C", "name": "Three Bags", "tags": ["constructive algorithms", "greedy"], "rating": 1900, "frequency": 828, "__v": 0, "contestId": "1467"}, {"_id": "6202a62032380906ee1b1b0f", "index": "D", "name": "Zigzags", "tags": ["brute force", "combinatorics", "data structures", "math", "two pointers"], "rating": 1900, "frequency": 823, "__v": 0, "contestId": "1400"}, {"_id": "6202a61f32380906ee1b176b", "index": "D", "name": "Multiset", "tags": ["binary search", "data structures"], "rating": 1900, "frequency": 821, "__v": 0, "contestId": "1354"}, {"_id": "6202a62332380906ee1b2964", "index": "D2", "name": "Half of Same", "tags": ["brute force", "math", "number theory"], "rating": 1900, "frequency": 795, "__v": 0, "contestId": "1593"}, {"_id": "6202a61d32380906ee1b1571", "index": "G", "name": "Strange Beauty", "tags": ["dp", "math", "number theory", "sortings"], "rating": 1900, "frequency": 780, "__v": 0, "contestId": "1475"}, {"_id": "6202a61f32380906ee1b17b4", "index": "E", "name": "Tree Queries", "tags": ["dfs and similar", "graphs", "trees"], "rating": 1900, "frequency": 770, "__v": 0, "contestId": "1328"}, {"_id": "6202a62032380906ee1b1c07", "index": "D", "name": "Genius's Gambit", "tags": ["bitmasks", "constructive algorithms", "greedy", "math"], "rating": 1900, "frequency": 759, "__v": 0, "contestId": "1492"}, {"_id": "6202a62232380906ee1b2450", "index": "D", "name": "MEX Sequences", "tags": ["dp", "math"], "rating": 1900, "frequency": 757, "__v": 0, "contestId": "1613"}, {"_id": "6202a62032380906ee1b1972", "index": "G", "name": "A/B Matrix", "tags": ["constructive algorithms", "greedy", "math"], "rating": 1900, "frequency": 748, "__v": 0, "contestId": "1360"}, {"_id": "6202a62232380906ee1b2229", "index": "D", "name": "Yet Another Sorting Problem", "tags": ["constructive algorithms", "data structures", "math", "sortings"], "rating": 1900, "frequency": 726, "__v": 0, "contestId": "1591"}, {"_id": "6202a62132380906ee1b206b", "index": "C", "name": "1D Sokoban", "tags": ["binary search", "dp", "greedy", "implementation", "two pointers"], "rating": 1900, "frequency": 699, "__v": 0, "contestId": "1494"}, {"_id": "6202a62132380906ee1b207a", "index": "G", "name": "Old Floppy Drive ", "tags": ["binary search", "data structures", "math"], "rating": 1900, "frequency": 696, "__v": 0, "contestId": "1490"}, {"_id": "6202a62032380906ee1b197b", "index": "E", "name": "K-periodic Garland", "tags": ["brute force", "dp", "greedy"], "rating": 1900, "frequency": 686, "__v": 0, "contestId": "1353"}, {"_id": "6202a61d32380906ee1b1572", "index": "F", "name": "Unusual Matrix", "tags": ["2-sat", "brute force", "constructive algorithms"], "rating": 1900, "frequency": 686, "__v": 0, "contestId": "1475"}, {"_id": "6202a62732380906ee1b3c39", "index": "D", "name": "AquaMoon and Chess", "tags": ["combinatorics", "math"], "rating": 1900, "frequency": 654, "__v": 0, "contestId": "1546"}, {"_id": "6202a62032380906ee1b1989", "index": "D", "name": "Multiple Testcases", "tags": ["binary search", "constructive algorithms", "data structures", "greedy", "sortings", "two pointers"], "rating": 1900, "frequency": 645, "__v": 0, "contestId": "1342"}, {"_id": "6202a62232380906ee1b2456", "index": "E2", "name": "Escape The Maze (hard version)", "tags": ["dfs and similar", "dp", "greedy", "shortest paths", "trees"], "rating": 1900, "frequency": 642, "__v": 0, "contestId": "1611"}, {"_id": "6202a62032380906ee1b1adf", "index": "E", "name": "String Reversal", "tags": ["data structures", "greedy", "strings"], "rating": 1900, "frequency": 624, "__v": 0, "contestId": "1430"}, {"_id": "6202a62032380906ee1b1a85", "index": "E", "name": "Necklace Assembly", "tags": ["brute force", "dfs and similar", "dp", "graphs", "greedy", "number theory"], "rating": 1900, "frequency": 619, "__v": 0, "contestId": "1367"}, {"_id": "6202a62232380906ee1b2256", "index": "D", "name": "Inconvenient Pairs", "tags": ["binary search", "data structures", "implementation", "sortings", "two pointers"], "rating": 1900, "frequency": 614, "__v": 0, "contestId": "1569"}, {"_id": "6202a61e32380906ee1b1702", "index": "E1", "name": "Asterism (Easy Version)", "tags": ["binary search", "brute force", "combinatorics", "math", "number theory", "sortings"], "rating": 1900, "frequency": 613, "__v": 0, "contestId": "1371"}, {"_id": "6202a61f32380906ee1b1820", "index": "D", "name": "Fill The Bag", "tags": ["bitmasks", "greedy"], "rating": 1900, "frequency": 609, "__v": 0, "contestId": "1303"}, {"_id": "6202a61d32380906ee1b143e", "index": "C2", "name": "Skyscrapers (hard version)", "tags": ["data structures", "dp", "greedy"], "rating": 1900, "frequency": 603, "__v": 0, "contestId": "1313"}, {"_id": "6202a62032380906ee1b1ac4", "index": "D", "name": "Bandit in a City", "tags": ["binary search", "dfs and similar", "graphs", "greedy", "trees"], "rating": 1900, "frequency": 602, "__v": 0, "contestId": "1436"}, {"_id": "6202a62532380906ee1b31fa", "index": "D1", "name": "Painting the Array I", "tags": ["data structures", "dp", "greedy", "implementation"], "rating": 1900, "frequency": 595, "__v": 0, "contestId": "1480"}, {"_id": "6202a61d32380906ee1b156d", "index": "D", "name": "Cow and Fields", "tags": ["binary search", "data structures", "dfs and similar", "graphs", "greedy", "shortest paths", "sortings"], "rating": 1900, "frequency": 579, "__v": 0, "contestId": "1307"}, {"_id": "6202a62532380906ee1b3218", "index": "D", "name": "Binary Literature", "tags": ["constructive algorithms", "greedy", "strings", "two pointers"], "rating": 1900, "frequency": 547, "__v": 0, "contestId": "1509"}, {"_id": "6202a61d32380906ee1b14f4", "index": "D", "name": "Bouncing Boomerangs", "tags": ["constructive algorithms", "greedy", "implementation"], "rating": 1900, "frequency": 510, "__v": 0, "contestId": "1428"}, {"_id": "6202a62032380906ee1b1a2e", "index": "D", "name": "Pairs", "tags": ["binary search", "constructive algorithms", "greedy", "two pointers"], "rating": 1900, "frequency": 510, "__v": 0, "contestId": "1463"}, {"_id": "6202a62432380906ee1b30dc", "index": "C", "name": "Longest Regular Bracket Sequence", "tags": ["constructive algorithms", "data structures", "dp", "greedy", "sortings", "strings"], "rating": 1900, "frequency": 507, "__v": 0, "contestId": "5"}, {"_id": "6202a62032380906ee1b1a40", "index": "D", "name": "Checkpoints", "tags": ["brute force", "constructive algorithms", "greedy", "math", "probabilities"], "rating": 1900, "frequency": 484, "__v": 0, "contestId": "1453"}, {"_id": "6202a62032380906ee1b1ad7", "index": "D", "name": "Hexagons", "tags": ["brute force", "constructive algorithms", "greedy", "implementation", "math", "shortest paths"], "rating": 1900, "frequency": 481, "__v": 0, "contestId": "1421"}, {"_id": "6202a62432380906ee1b30d9", "index": "D", "name": "Roads not only in Berland", "tags": ["dsu", "graphs", "trees"], "rating": 1900, "frequency": 479, "__v": 0, "contestId": "25"}, {"_id": "6202a62532380906ee1b3291", "index": "D", "name": "Strange Definition", "tags": ["bitmasks", "graphs", "hashing", "math", "number theory"], "rating": 1900, "frequency": 462, "__v": 0, "contestId": "1471"}, {"_id": "6202a62532380906ee1b3250", "index": "D", "name": "Let's Go Hiking", "tags": ["games"], "rating": 1900, "frequency": 448, "__v": 0, "contestId": "1496"}, {"_id": "6202a61e32380906ee1b16e9", "index": "B1", "name": "Koa and the Beach (Easy Version)", "tags": ["brute force", "dp", "greedy"], "rating": 1900, "frequency": 444, "__v": 0, "contestId": "1384"}, {"_id": "6202a61d32380906ee1b146f", "index": "D", "name": "Kuroni and the Celebration", "tags": ["constructive algorithms", "dfs and similar", "interactive", "trees"], "rating": 1900, "frequency": 439, "__v": 0, "contestId": "1305"}, {"_id": "6202a61c32380906ee1b13bc", "index": "B", "name": "GameGame", "tags": ["bitmasks", "constructive algorithms", "dp", "games", "greedy", "math"], "rating": 1900, "frequency": 435, "__v": 0, "contestId": "1383"}, {"_id": "6202a62732380906ee1b408b", "index": "D", "name": "Frog Traveler", "tags": ["data structures", "dp", "graphs", "greedy", "shortest paths"], "rating": 1900, "frequency": 402, "__v": 0, "contestId": "1602"}, {"_id": "6202a62532380906ee1b345f", "index": "B", "name": "Modulo Sum", "tags": ["combinatorics", "data structures", "dp", "two pointers"], "rating": 1900, "frequency": 386, "__v": 0, "contestId": "577"}, {"_id": "6202a62332380906ee1b26ba", "index": "E", "name": "Enemy is weak", "tags": ["data structures", "trees"], "rating": 1900, "frequency": 385, "__v": 0, "contestId": "61"}, {"_id": "6202a62632380906ee1b3804", "index": "D", "name": "Tree Tag", "tags": ["constructive algorithms", "dfs and similar", "dp", "games", "strings", "trees"], "rating": 1900, "frequency": 381, "__v": 0, "contestId": "1405"}, {"_id": "6202a62532380906ee1b365e", "index": "C", "name": "Gargari and Bishops", "tags": ["greedy", "hashing", "implementation"], "rating": 1900, "frequency": 375, "__v": 0, "contestId": "463"}, {"_id": "6202a61d32380906ee1b1493", "index": "B1", "name": "Painting the Array I", "tags": ["constructive algorithms", "data structures", "dp", "greedy", "implementation"], "rating": 1900, "frequency": 371, "__v": 0, "contestId": "1479"}, {"_id": "6202a61e32380906ee1b1621", "index": "A", "name": "Binary Literature", "tags": ["constructive algorithms", "greedy", "implementation", "strings", "two pointers"], "rating": 1900, "frequency": 371, "__v": 0, "contestId": "1508"}, {"_id": "6202a62432380906ee1b2f53", "index": "D", "name": "Divide and Sum", "tags": ["combinatorics", "math", "sortings"], "rating": 1900, "frequency": 369, "__v": 0, "contestId": "1445"}, {"_id": "6202a61d32380906ee1b14ea", "index": "B", "name": "Divide and Sum", "tags": ["combinatorics", "math", "sortings"], "rating": 1900, "frequency": 365, "__v": 0, "contestId": "1444"}, {"_id": "6202a62432380906ee1b2f3f", "index": "D", "name": "Dr. Evil Underscores", "tags": ["bitmasks", "brute force", "dfs and similar", "divide and conquer", "dp", "greedy", "strings", "trees"], "rating": 1900, "frequency": 358, "__v": 0, "contestId": "1285"}, {"_id": "6202a62632380906ee1b366d", "index": "D2", "name": "Up the Strip", "tags": ["brute force", "dp", "math", "number theory"], "rating": 1900, "frequency": 357, "__v": 0, "contestId": "1561"}, {"_id": "6202a61d32380906ee1b14b0", "index": "B", "name": "Strange Definition", "tags": ["bitmasks", "graphs", "hashing", "math", "number theory"], "rating": 1900, "frequency": 355, "__v": 0, "contestId": "1470"}, {"_id": "6202a62632380906ee1b3a18", "index": "C2", "name": "Binary Table (Hard Version)", "tags": ["constructive algorithms", "implementation"], "rating": 1900, "frequency": 343, "__v": 0, "contestId": "1440"}, {"_id": "6202a62432380906ee1b2cb1", "index": "E", "name": "Nearest Opposite Parity", "tags": ["dfs and similar", "graphs", "shortest paths"], "rating": 1900, "frequency": 336, "__v": 0, "contestId": "1272"}, {"_id": "6202a61f32380906ee1b17fc", "index": "F", "name": "Moving Points", "tags": ["data structures", "divide and conquer", "implementation", "sortings"], "rating": 1900, "frequency": 332, "__v": 0, "contestId": "1311"}, {"_id": "6202a61f32380906ee1b1854", "index": "B", "name": "AquaMoon and Chess", "tags": ["combinatorics", "math"], "rating": 1900, "frequency": 329, "__v": 0, "contestId": "1545"}, {"_id": "6202a62532380906ee1b31a8", "index": "C", "name": "Classy Numbers", "tags": ["combinatorics", "dp"], "rating": 1900, "frequency": 316, "__v": 0, "contestId": "1036"}, {"_id": "6202a62532380906ee1b3528", "index": "D", "name": "Beautiful Array", "tags": ["brute force", "data structures", "divide and conquer", "dp", "greedy"], "rating": 1900, "frequency": 316, "__v": 0, "contestId": "1155"}, {"_id": "6202a61b32380906ee1b13a9", "index": "B", "name": "Tree Tag", "tags": ["dfs and similar", "dp", "games", "trees"], "rating": 1900, "frequency": 298, "__v": 0, "contestId": "1404"}, {"_id": "6202a62432380906ee1b2ec4", "index": "F", "name": "Tree with Maximum Cost", "tags": ["dfs and similar", "dp", "trees"], "rating": 1900, "frequency": 297, "__v": 0, "contestId": "1092"}, {"_id": "6202a62232380906ee1b21c0", "index": "C", "name": "Perform Easily", "tags": ["brute force", "data structures", "dp", "sortings", "two pointers"], "rating": 1900, "frequency": 296, "__v": 0, "contestId": "1435"}, {"_id": "6202a62132380906ee1b1fad", "index": "B", "name": "Zuma", "tags": ["dp"], "rating": 1900, "frequency": 295, "__v": 0, "contestId": "607"}, {"_id": "6202a61e32380906ee1b1636", "index": "B", "name": "Let's Go Hiking", "tags": ["games", "greedy"], "rating": 1900, "frequency": 293, "__v": 0, "contestId": "1495"}, {"_id": "6202a62032380906ee1b1953", "index": "B", "name": "Frog Traveler", "tags": ["data structures", "dfs and similar", "dp", "graphs", "shortest paths", "two pointers"], "rating": 1900, "frequency": 288, "__v": 0, "contestId": "1601"}, {"_id": "6202a61d32380906ee1b149f", "index": "B", "name": "Nezzar and Binary String", "tags": ["data structures", "greedy"], "rating": 1900, "frequency": 287, "__v": 0, "contestId": "1477"}, {"_id": "6202a61c32380906ee1b13ee", "index": "B", "name": "Johnny and Grandmaster", "tags": ["greedy", "implementation", "math", "sortings"], "rating": 1900, "frequency": 280, "__v": 0, "contestId": "1361"}, {"_id": "6202a62632380906ee1b3a92", "index": "E", "name": "Array Game", "tags": ["games", "greedy", "two pointers"], "rating": 1900, "frequency": 271, "__v": 0, "contestId": "1600"}, {"_id": "6202a62432380906ee1b2c11", "index": "D", "name": "Array Division", "tags": ["binary search", "data structures", "implementation"], "rating": 1900, "frequency": 269, "__v": 0, "contestId": "808"}, {"_id": "6202a62232380906ee1b2181", "index": "C", "name": "Painting Fence", "tags": ["divide and conquer", "dp", "greedy"], "rating": 1900, "frequency": 267, "__v": 0, "contestId": "448"}, {"_id": "6202a61b32380906ee1b1383", "index": "A2", "name": "Binary Table (Hard Version)", "tags": ["constructive algorithms", "graphs", "greedy", "implementation"], "rating": 1900, "frequency": 258, "__v": 0, "contestId": "1439"}, {"_id": "6202a62032380906ee1b1c02", "index": "E", "name": "XOR Guessing", "tags": ["bitmasks", "interactive", "math"], "rating": 1900, "frequency": 253, "__v": 0, "contestId": "1207"}, {"_id": "6202a62432380906ee1b2f45", "index": "E", "name": "Obtain a Permutation", "tags": ["greedy", "implementation", "math"], "rating": 1900, "frequency": 245, "__v": 0, "contestId": "1294"}, {"_id": "6202a62132380906ee1b1daa", "index": "D", "name": "AB-string", "tags": ["binary search", "combinatorics", "dp", "strings"], "rating": 1900, "frequency": 243, "__v": 0, "contestId": "1238"}, {"_id": "6202a61f32380906ee1b1825", "index": "D", "name": "Salary Changing", "tags": ["binary search", "greedy", "sortings"], "rating": 1900, "frequency": 240, "__v": 0, "contestId": "1251"}, {"_id": "6202a62332380906ee1b2aaf", "index": "D", "name": "Shichikuji and Power Grid", "tags": ["dsu", "graphs", "greedy", "shortest paths", "trees"], "rating": 1900, "frequency": 239, "__v": 0, "contestId": "1245"}, {"_id": "6202a62132380906ee1b1f42", "index": "B", "name": "Mike and Feet", "tags": ["binary search", "data structures", "dp", "dsu"], "rating": 1900, "frequency": 237, "__v": 0, "contestId": "547"}, {"_id": "6202a62032380906ee1b196d", "index": "B", "name": "Up the Strip", "tags": ["brute force", "dp", "math", "number theory", "two pointers"], "rating": 1900, "frequency": 236, "__v": 0, "contestId": "1558"}, {"_id": "6202a62732380906ee1b3d0f", "index": "D", "name": "Playlist", "tags": ["data structures", "dsu", "implementation"], "rating": 1900, "frequency": 233, "__v": 0, "contestId": "1484"}, {"_id": "6202a62232380906ee1b2637", "index": "D", "name": "Flood Fill", "tags": ["dp"], "rating": 1900, "frequency": 231, "__v": 0, "contestId": "1114"}, {"_id": "6202a62332380906ee1b2b87", "index": "C", "name": "Magic Ship", "tags": ["binary search"], "rating": 1900, "frequency": 226, "__v": 0, "contestId": "1117"}, {"_id": "6202a62332380906ee1b26c0", "index": "D", "name": "Gargari and Permutations", "tags": ["dfs and similar", "dp", "graphs", "implementation"], "rating": 1900, "frequency": 222, "__v": 0, "contestId": "463"}, {"_id": "6202a62532380906ee1b3196", "index": "C", "name": "Pashmak and Buses", "tags": ["combinatorics", "constructive algorithms", "math"], "rating": 1900, "frequency": 221, "__v": 0, "contestId": "459"}, {"_id": "6202a62432380906ee1b2caa", "index": "E", "name": "Two Small Strings", "tags": ["brute force", "constructive algorithms"], "rating": 1900, "frequency": 219, "__v": 0, "contestId": "1213"}, {"_id": "6202a62432380906ee1b3071", "index": "D", "name": "Print a 1337-string...", "tags": ["combinatorics", "constructive algorithms", "math", "strings"], "rating": 1900, "frequency": 216, "__v": 0, "contestId": "1202"}, {"_id": "6202a62532380906ee1b31c2", "index": "D", "name": "Array Splitting", "tags": ["greedy", "sortings"], "rating": 1900, "frequency": 216, "__v": 0, "contestId": "1175"}, {"_id": "6202a62332380906ee1b2ac7", "index": "F", "name": "Make It Connected", "tags": ["dsu", "graphs", "greedy"], "rating": 1900, "frequency": 215, "__v": 0, "contestId": "1095"}, {"_id": "6202a62132380906ee1b2167", "index": "C", "name": "Fools and Roads", "tags": ["data structures", "dfs and similar", "trees"], "rating": 1900, "frequency": 211, "__v": 0, "contestId": "191"}, {"_id": "6202a61f32380906ee1b1819", "index": "B", "name": "0-1 MST", "tags": ["dfs and similar", "dsu", "graphs", "sortings"], "rating": 1900, "frequency": 207, "__v": 0, "contestId": "1242"}, {"_id": "6202a61f32380906ee1b18eb", "index": "C", "name": "Perform Easily", "tags": ["binary search", "brute force", "dp", "implementation", "sortings", "two pointers"], "rating": 1900, "frequency": 202, "__v": 0, "contestId": "1413"}, {"_id": "6202a62732380906ee1b3e34", "index": "C", "name": "Roads in Berland", "tags": ["graphs", "shortest paths"], "rating": 1900, "frequency": 200, "__v": 0, "contestId": "25"}, {"_id": "6202a62532380906ee1b31cb", "index": "D", "name": "Yet Another Subarray Problem", "tags": ["dp", "greedy", "math"], "rating": 1900, "frequency": 199, "__v": 0, "contestId": "1197"}, {"_id": "6202a62232380906ee1b2641", "index": "D", "name": "Ehab and the Expected XOR Problem", "tags": ["bitmasks", "constructive algorithms"], "rating": 1900, "frequency": 193, "__v": 0, "contestId": "1174"}, {"_id": "6202a62432380906ee1b3016", "index": "D", "name": "GameGame", "tags": ["bitmasks", "constructive algorithms", "games", "math"], "rating": 1900, "frequency": 193, "__v": 0, "contestId": "1384"}, {"_id": "6202a62032380906ee1b19d0", "index": "D", "name": "Equalize the Remainders", "tags": ["data structures", "greedy", "implementation"], "rating": 1900, "frequency": 189, "__v": 0, "contestId": "999"}, {"_id": "6202a62332380906ee1b2801", "index": "C", "name": "Maximal GCD", "tags": ["constructive algorithms", "greedy", "math"], "rating": 1900, "frequency": 184, "__v": 0, "contestId": "803"}, {"_id": "6202a61f32380906ee1b1843", "index": "B", "name": "Playlist", "tags": ["data structures", "dsu", "implementation"], "rating": 1900, "frequency": 183, "__v": 0, "contestId": "1483"}, {"_id": "6202a62032380906ee1b19ee", "index": "F2", "name": "Same Sum Blocks (Hard)", "tags": ["data structures", "greedy"], "rating": 1900, "frequency": 182, "__v": 0, "contestId": "1141"}, {"_id": "6202a62532380906ee1b3206", "index": "E", "name": "Fish", "tags": ["bitmasks", "dp", "probabilities"], "rating": 1900, "frequency": 176, "__v": 0, "contestId": "16"}, {"_id": "6202a62232380906ee1b24ed", "index": "E", "name": "Pashmak and Graph", "tags": ["dp", "sortings"], "rating": 1900, "frequency": 175, "__v": 0, "contestId": "459"}, {"_id": "6202a62132380906ee1b206f", "index": "F1", "name": "Same Sum Blocks (Easy)", "tags": ["greedy"], "rating": 1900, "frequency": 173, "__v": 0, "contestId": "1141"}, {"_id": "6202a61f32380906ee1b1786", "index": "D", "name": "Treasure Island", "tags": ["dfs and similar", "dp", "flows", "hashing"], "rating": 1900, "frequency": 168, "__v": 0, "contestId": "1214"}, {"_id": "6202a62432380906ee1b2ef5", "index": "E1", "name": "Numerical Sequence (easy version)", "tags": ["binary search", "brute force", "math"], "rating": 1900, "frequency": 168, "__v": 0, "contestId": "1216"}, {"_id": "6202a62432380906ee1b2ebb", "index": "F1", "name": "Pictures with Kittens (easy version)", "tags": ["dp"], "rating": 1900, "frequency": 167, "__v": 0, "contestId": "1077"}, {"_id": "6202a62032380906ee1b1b64", "index": "B", "name": "Shortest Cycle", "tags": ["bitmasks", "brute force", "graphs", "shortest paths"], "rating": 1900, "frequency": 165, "__v": 0, "contestId": "1205"}, {"_id": "6202a62432380906ee1b304d", "index": "D", "name": "Complete Tripartite", "tags": ["brute force", "constructive algorithms", "graphs", "hashing", "implementation"], "rating": 1900, "frequency": 163, "__v": 0, "contestId": "1228"}, {"_id": "6202a62532380906ee1b31d5", "index": "D", "name": "A Game with Traps", "tags": ["binary search", "dp", "greedy", "sortings"], "rating": 1900, "frequency": 162, "__v": 0, "contestId": "1260"}, {"_id": "6202a62332380906ee1b26ab", "index": "E", "name": "Pavel and Triangles", "tags": ["brute force", "dp", "fft", "greedy", "ternary search"], "rating": 1900, "frequency": 159, "__v": 0, "contestId": "1119"}]}
+{
+    "message": "Ladder fetched",
+    "data": [
+        {
+            "_id": "1854A2",
+            "index": "A2",
+            "name": "Dual (Hard Version)",
+            "tags": [
+                "constructive algorithms",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 452,
+            "contestId": "1854"
+        },
+        {
+            "_id": "1847D",
+            "index": "D",
+            "name": "Professor Higashikata",
+            "tags": [
+                "data structures",
+                "dsu",
+                "greedy",
+                "implementation",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 649,
+            "contestId": "1847"
+        },
+        {
+            "_id": "1846G",
+            "index": "G",
+            "name": "Rudolf and CodeVid-23",
+            "tags": [
+                "bitmasks",
+                "dp",
+                "graphs",
+                "greedy",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 738,
+            "contestId": "1846"
+        },
+        {
+            "_id": "1842D",
+            "index": "D",
+            "name": "Tenzing and His Animal Friends ",
+            "tags": [
+                "constructive algorithms",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 646,
+            "contestId": "1842"
+        },
+        {
+            "_id": "1834D",
+            "index": "D",
+            "name": "Survey in Class",
+            "tags": [
+                "brute force",
+                "data structures",
+                "greedy",
+                "implementation",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 690,
+            "contestId": "1834"
+        },
+        {
+            "_id": "1823D",
+            "index": "D",
+            "name": "Unique Palindromes",
+            "tags": [
+                "constructive algorithms",
+                "math",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 546,
+            "contestId": "1823"
+        },
+        {
+            "_id": "1821D",
+            "index": "D",
+            "name": "Black Cells",
+            "tags": [
+                "binary search",
+                "brute force",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 675,
+            "contestId": "1821"
+        },
+        {
+            "_id": "1819B",
+            "index": "B",
+            "name": "The Butcher",
+            "tags": [
+                "geometry",
+                "greedy",
+                "implementation",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 235,
+            "contestId": "1819"
+        },
+        {
+            "_id": "1817B",
+            "index": "B",
+            "name": "Fish Graph",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "dfs and similar",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 276,
+            "contestId": "1817"
+        },
+        {
+            "_id": "1808C",
+            "index": "C",
+            "name": "Unlucky Numbers",
+            "tags": [
+                "brute force",
+                "dp",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 491,
+            "contestId": "1808"
+        },
+        {
+            "_id": "1801C",
+            "index": "C",
+            "name": "Music Festival",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dp",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 259,
+            "contestId": "1801"
+        },
+        {
+            "_id": "1800F",
+            "index": "F",
+            "name": "Dasha and Nightmares",
+            "tags": [
+                "bitmasks",
+                "hashing",
+                "meet-in-the-middle",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 375,
+            "contestId": "1800"
+        },
+        {
+            "_id": "1799D1",
+            "index": "D1",
+            "name": "Hot Start Up (easy version)",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 446,
+            "contestId": "1799"
+        },
+        {
+            "_id": "1797D",
+            "index": "D",
+            "name": "Li Hua and Tree",
+            "tags": [
+                "brute force",
+                "data structures",
+                "dfs and similar",
+                "dp",
+                "implementation",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 471,
+            "contestId": "1797"
+        },
+        {
+            "_id": "1794D",
+            "index": "D",
+            "name": "Counting Factorizations",
+            "tags": [
+                "combinatorics",
+                "divide and conquer",
+                "dp",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 346,
+            "contestId": "1794"
+        },
+        {
+            "_id": "1791G2",
+            "index": "G2",
+            "name": "Teleporters (Hard Version)",
+            "tags": [
+                "binary search",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 530,
+            "contestId": "1791"
+        },
+        {
+            "_id": "1787D",
+            "index": "D",
+            "name": "Game on Axis",
+            "tags": [
+                "combinatorics",
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 356,
+            "contestId": "1787"
+        },
+        {
+            "_id": "1784B",
+            "index": "B",
+            "name": "Letter Exchange",
+            "tags": [
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 46,
+            "contestId": "1784"
+        },
+        {
+            "_id": "1777D",
+            "index": "D",
+            "name": "Score of a Tree",
+            "tags": [
+                "bitmasks",
+                "combinatorics",
+                "dfs and similar",
+                "dp",
+                "math",
+                "probabilities",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 304,
+            "contestId": "1777"
+        },
+        {
+            "_id": "1774E",
+            "index": "E",
+            "name": "Two Chess Pieces",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 288,
+            "contestId": "1774"
+        },
+        {
+            "_id": "1773K",
+            "index": "K",
+            "name": "King's Puzzle",
+            "tags": [
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 97,
+            "contestId": "1773"
+        },
+        {
+            "_id": "1773A",
+            "index": "A",
+            "name": "Amazing Trick",
+            "tags": [
+                "constructive algorithms",
+                "graph matchings",
+                "math",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 88,
+            "contestId": "1773"
+        },
+        {
+            "_id": "1759G",
+            "index": "G",
+            "name": "Restore the Permutation",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "data structures",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 367,
+            "contestId": "1759"
+        },
+        {
+            "_id": "1749D",
+            "index": "D",
+            "name": "Counting Arrays",
+            "tags": [
+                "combinatorics",
+                "dp",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 492,
+            "contestId": "1749"
+        },
+        {
+            "_id": "1747D",
+            "index": "D",
+            "name": "Yet Another Problem",
+            "tags": [
+                "binary search",
+                "bitmasks",
+                "constructive algorithms",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 409,
+            "contestId": "1747"
+        },
+        {
+            "_id": "1746D",
+            "index": "D",
+            "name": "Paths on the Tree",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "greedy",
+                "sortings",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 385,
+            "contestId": "1746"
+        },
+        {
+            "_id": "1744E2",
+            "index": "E2",
+            "name": "Divisible Numbers (hard version)",
+            "tags": [
+                "brute force",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 436,
+            "contestId": "1744"
+        },
+        {
+            "_id": "1739D",
+            "index": "D",
+            "name": "Reset K Edges",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dfs and similar",
+                "graphs",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 421,
+            "contestId": "1739"
+        },
+        {
+            "_id": "1738D",
+            "index": "D",
+            "name": "Permutation Addicts",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 272,
+            "contestId": "1738"
+        },
+        {
+            "_id": "1729F",
+            "index": "F",
+            "name": "Kirei and the Linear Function",
+            "tags": [
+                "hashing",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 306,
+            "contestId": "1729"
+        },
+        {
+            "_id": "1718A2",
+            "index": "A2",
+            "name": "Burenka and Traditions (hard version)",
+            "tags": [
+                "data structures",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 120,
+            "contestId": "1718"
+        },
+        {
+            "_id": "1717D",
+            "index": "D",
+            "name": "Madoka and The Corruption Scheme",
+            "tags": [
+                "combinatorics",
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 104,
+            "contestId": "1717"
+        },
+        {
+            "_id": "1715D",
+            "index": "D",
+            "name": "2+ doors",
+            "tags": [
+                "2-sat",
+                "bitmasks",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 126,
+            "contestId": "1715"
+        },
+        {
+            "_id": "1714F",
+            "index": "F",
+            "name": "Build a Tree and That Is It",
+            "tags": [
+                "constructive algorithms",
+                "implementation",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 82,
+            "contestId": "1714"
+        },
+        {
+            "_id": "1707B",
+            "index": "B",
+            "name": "Difference Array",
+            "tags": [
+                "brute force",
+                "data structures",
+                "implementation",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 97,
+            "contestId": "1707"
+        },
+        {
+            "_id": "1704D",
+            "index": "D",
+            "name": "Magical Array",
+            "tags": [
+                "constructive algorithms",
+                "hashing",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 84,
+            "contestId": "1704"
+        },
+        {
+            "_id": "1702G1",
+            "index": "G1",
+            "name": "Passable Paths (easy version)",
+            "tags": [
+                "dfs and similar",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 122,
+            "contestId": "1702"
+        },
+        {
+            "_id": "1701D",
+            "index": "D",
+            "name": "Permutation Restoration",
+            "tags": [
+                "binary search",
+                "data structures",
+                "greedy",
+                "math",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 95,
+            "contestId": "1701"
+        },
+        {
+            "_id": "1700D",
+            "index": "D",
+            "name": "River Locks",
+            "tags": [
+                "binary search",
+                "dp",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 130,
+            "contestId": "1700"
+        },
+        {
+            "_id": "1697D",
+            "index": "D",
+            "name": "Guess The String",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "interactive"
+            ],
+            "rating": 1900,
+            "frequency": 63,
+            "contestId": "1697"
+        },
+        {
+            "_id": "1696D",
+            "index": "D",
+            "name": "Permutation Graph",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "data structures",
+                "divide and conquer",
+                "greedy",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "1696"
+        },
+        {
+            "_id": "1689D",
+            "index": "D",
+            "name": "Lena and Matrix",
+            "tags": [
+                "data structures",
+                "dp",
+                "geometry",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 76,
+            "contestId": "1689"
+        },
+        {
+            "_id": "1679D",
+            "index": "D",
+            "name": "Toss a Coin to Your Graph...",
+            "tags": [
+                "binary search",
+                "dfs and similar",
+                "dp",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 103,
+            "contestId": "1679"
+        },
+        {
+            "_id": "1677C",
+            "index": "C",
+            "name": "Tokitsukaze and Two Colorful Tapes",
+            "tags": [
+                "constructive algorithms",
+                "dfs and similar",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 53,
+            "contestId": "1677"
+        },
+        {
+            "_id": "1673D",
+            "index": "D",
+            "name": "Lost Arithmetic Progression",
+            "tags": [
+                "combinatorics",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 48,
+            "contestId": "1673"
+        },
+        {
+            "_id": "1661D",
+            "index": "D",
+            "name": "Progressions Covering",
+            "tags": [
+                "data structures",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 87,
+            "contestId": "1661"
+        },
+        {
+            "_id": "1659D",
+            "index": "D",
+            "name": "Reverse Sort Sum",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "greedy",
+                "implementation",
+                "math",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 56,
+            "contestId": "1659"
+        },
+        {
+            "_id": "1656D",
+            "index": "D",
+            "name": "K-good",
+            "tags": [
+                "constructive algorithms",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 102,
+            "contestId": "1656"
+        },
+        {
+            "_id": "1651D",
+            "index": "D",
+            "name": "Nearest Excluded Points",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dfs and similar",
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 82,
+            "contestId": "1651"
+        },
+        {
+            "_id": "1650E",
+            "index": "E",
+            "name": "Rescheduling the Exam",
+            "tags": [
+                "binary search",
+                "data structures",
+                "greedy",
+                "implementation",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 50,
+            "contestId": "1650"
+        },
+        {
+            "_id": "1648C",
+            "index": "C",
+            "name": "Tyler and Strings",
+            "tags": [
+                "combinatorics",
+                "data structures",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "1648"
+        },
+        {
+            "_id": "1647D",
+            "index": "D",
+            "name": "Madoka and the Best School in Russia",
+            "tags": [
+                "constructive algorithms",
+                "dp",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 77,
+            "contestId": "1647"
+        },
+        {
+            "_id": "1644E",
+            "index": "E",
+            "name": "Expand the Path",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "data structures",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 53,
+            "contestId": "1644"
+        },
+        {
+            "_id": "1627D",
+            "index": "D",
+            "name": "Not Adding",
+            "tags": [
+                "brute force",
+                "dp",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 127,
+            "contestId": "1627"
+        },
+        {
+            "_id": "1624G",
+            "index": "G",
+            "name": "MinOr Tree",
+            "tags": [
+                "bitmasks",
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 106,
+            "contestId": "1624"
+        },
+        {
+            "_id": "1620E",
+            "index": "E",
+            "name": "Replace the Numbers",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "dsu",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 142,
+            "contestId": "1620"
+        },
+        {
+            "_id": "1613D",
+            "index": "D",
+            "name": "MEX Sequences",
+            "tags": [
+                "dp",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 73,
+            "contestId": "1613"
+        },
+        {
+            "_id": "1611E2",
+            "index": "E2",
+            "name": "Escape The Maze (hard version)",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "greedy",
+                "shortest paths",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 67,
+            "contestId": "1611"
+        },
+        {
+            "_id": "1601B",
+            "index": "B",
+            "name": "Frog Traveler",
+            "tags": [
+                "data structures",
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "shortest paths",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 52,
+            "contestId": "1601"
+        },
+        {
+            "_id": "1600E",
+            "index": "E",
+            "name": "Array Game",
+            "tags": [
+                "games",
+                "greedy",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 46,
+            "contestId": "1600"
+        },
+        {
+            "_id": "1593D2",
+            "index": "D2",
+            "name": "Half of Same",
+            "tags": [
+                "brute force",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 61,
+            "contestId": "1593"
+        },
+        {
+            "_id": "1585D",
+            "index": "D",
+            "name": "Yet Another Sorting Problem",
+            "tags": [
+                "data structures",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 31,
+            "contestId": "1585"
+        },
+        {
+            "_id": "1569D",
+            "index": "D",
+            "name": "Inconvenient Pairs",
+            "tags": [
+                "binary search",
+                "data structures",
+                "implementation",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 40,
+            "contestId": "1569"
+        },
+        {
+            "_id": "1560F1",
+            "index": "F1",
+            "name": "Nearest Beautiful Number (easy version)",
+            "tags": [
+                "binary search",
+                "bitmasks",
+                "brute force",
+                "constructive algorithms",
+                "dfs and similar",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 80,
+            "contestId": "1560"
+        },
+        {
+            "_id": "1558B",
+            "index": "B",
+            "name": "Up the Strip",
+            "tags": [
+                "brute force",
+                "dp",
+                "math",
+                "number theory",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 43,
+            "contestId": "1558"
+        },
+        {
+            "_id": "1547F",
+            "index": "F",
+            "name": "Array Stabilization (GCD version)",
+            "tags": [
+                "binary search",
+                "brute force",
+                "data structures",
+                "divide and conquer",
+                "number theory",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 93,
+            "contestId": "1547"
+        },
+        {
+            "_id": "1545B",
+            "index": "B",
+            "name": "AquaMoon and Chess",
+            "tags": [
+                "combinatorics",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "1545"
+        },
+        {
+            "_id": "1543C",
+            "index": "C",
+            "name": "Need for Pink Slips",
+            "tags": [
+                "bitmasks",
+                "brute force",
+                "dfs and similar",
+                "implementation",
+                "math",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 34,
+            "contestId": "1543"
+        },
+        {
+            "_id": "1527B2",
+            "index": "B2",
+            "name": "Palindrome Game (hard version)",
+            "tags": [
+                "constructive algorithms",
+                "games"
+            ],
+            "rating": 1900,
+            "frequency": 88,
+            "contestId": "1527"
+        },
+        {
+            "_id": "1512F",
+            "index": "F",
+            "name": "Education",
+            "tags": [
+                "brute force",
+                "dp",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 76,
+            "contestId": "1512"
+        },
+        {
+            "_id": "1508A",
+            "index": "A",
+            "name": "Binary Literature",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "strings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 40,
+            "contestId": "1508"
+        },
+        {
+            "_id": "1495B",
+            "index": "B",
+            "name": "Let's Go Hiking",
+            "tags": [
+                "games",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "1495"
+        },
+        {
+            "_id": "1494C",
+            "index": "C",
+            "name": "1D Sokoban",
+            "tags": [
+                "binary search",
+                "dp",
+                "greedy",
+                "implementation",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 40,
+            "contestId": "1494"
+        },
+        {
+            "_id": "1492D",
+            "index": "D",
+            "name": "Genius's Gambit",
+            "tags": [
+                "bitmasks",
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "1492"
+        },
+        {
+            "_id": "1490G",
+            "index": "G",
+            "name": "Old Floppy Drive ",
+            "tags": [
+                "binary search",
+                "data structures",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 53,
+            "contestId": "1490"
+        },
+        {
+            "_id": "1486C2",
+            "index": "C2",
+            "name": "Guessing the Greatest (hard version)",
+            "tags": [
+                "binary search",
+                "interactive"
+            ],
+            "rating": 1900,
+            "frequency": 110,
+            "contestId": "1486"
+        },
+        {
+            "_id": "1482D",
+            "index": "D",
+            "name": "Playlist",
+            "tags": [
+                "data structures",
+                "dsu",
+                "implementation",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 16,
+            "contestId": "1482"
+        },
+        {
+            "_id": "1479B1",
+            "index": "B1",
+            "name": "Painting the Array I",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "dp",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 47,
+            "contestId": "1479"
+        },
+        {
+            "_id": "1477B",
+            "index": "B",
+            "name": "Nezzar and Binary String",
+            "tags": [
+                "data structures",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "1477"
+        },
+        {
+            "_id": "1475G",
+            "index": "G",
+            "name": "Strange Beauty",
+            "tags": [
+                "dp",
+                "math",
+                "number theory",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 93,
+            "contestId": "1475"
+        },
+        {
+            "_id": "1475F",
+            "index": "F",
+            "name": "Unusual Matrix",
+            "tags": [
+                "2-sat",
+                "brute force",
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 51,
+            "contestId": "1475"
+        },
+        {
+            "_id": "1470B",
+            "index": "B",
+            "name": "Strange Definition",
+            "tags": [
+                "bitmasks",
+                "graphs",
+                "hashing",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "1470"
+        },
+        {
+            "_id": "1467C",
+            "index": "C",
+            "name": "Three Bags",
+            "tags": [
+                "constructive algorithms",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 54,
+            "contestId": "1467"
+        },
+        {
+            "_id": "1463D",
+            "index": "D",
+            "name": "Pairs",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "greedy",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 52,
+            "contestId": "1463"
+        },
+        {
+            "_id": "1453D",
+            "index": "D",
+            "name": "Checkpoints",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "greedy",
+                "math",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 24,
+            "contestId": "1453"
+        },
+        {
+            "_id": "1444B",
+            "index": "B",
+            "name": "Divide and Sum",
+            "tags": [
+                "combinatorics",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 34,
+            "contestId": "1444"
+        },
+        {
+            "_id": "1439A2",
+            "index": "A2",
+            "name": "Binary Table (Hard Version)",
+            "tags": [
+                "constructive algorithms",
+                "graphs",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 27,
+            "contestId": "1439"
+        },
+        {
+            "_id": "1436D",
+            "index": "D",
+            "name": "Bandit in a City",
+            "tags": [
+                "binary search",
+                "dfs and similar",
+                "graphs",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 59,
+            "contestId": "1436"
+        },
+        {
+            "_id": "1430E",
+            "index": "E",
+            "name": "String Reversal",
+            "tags": [
+                "data structures",
+                "greedy",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 65,
+            "contestId": "1430"
+        },
+        {
+            "_id": "1428D",
+            "index": "D",
+            "name": "Bouncing Boomerangs",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 27,
+            "contestId": "1428"
+        },
+        {
+            "_id": "1423B",
+            "index": "B",
+            "name": "Valuable Paper",
+            "tags": [
+                "binary search",
+                "flows",
+                "graph matchings",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "1423"
+        },
+        {
+            "_id": "1421D",
+            "index": "D",
+            "name": "Hexagons",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "math",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "1421"
+        },
+        {
+            "_id": "1413C",
+            "index": "C",
+            "name": "Perform Easily",
+            "tags": [
+                "binary search",
+                "brute force",
+                "dp",
+                "implementation",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 52,
+            "contestId": "1413"
+        },
+        {
+            "_id": "1404B",
+            "index": "B",
+            "name": "Tree Tag",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "games",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 58,
+            "contestId": "1404"
+        },
+        {
+            "_id": "1400D",
+            "index": "D",
+            "name": "Zigzags",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "data structures",
+                "math",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 87,
+            "contestId": "1400"
+        },
+        {
+            "_id": "1384B1",
+            "index": "B1",
+            "name": "Koa and the Beach (Easy Version)",
+            "tags": [
+                "brute force",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "1384"
+        },
+        {
+            "_id": "1383B",
+            "index": "B",
+            "name": "GameGame",
+            "tags": [
+                "bitmasks",
+                "constructive algorithms",
+                "dp",
+                "games",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "1383"
+        },
+        {
+            "_id": "1375D",
+            "index": "D",
+            "name": "Replace by MEX",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 75,
+            "contestId": "1375"
+        },
+        {
+            "_id": "1371E1",
+            "index": "E1",
+            "name": "Asterism (Easy Version)",
+            "tags": [
+                "binary search",
+                "brute force",
+                "combinatorics",
+                "math",
+                "number theory",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "1371"
+        },
+        {
+            "_id": "1369D",
+            "index": "D",
+            "name": "TediousLee",
+            "tags": [
+                "dp",
+                "graphs",
+                "greedy",
+                "math",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "1369"
+        },
+        {
+            "_id": "1367E",
+            "index": "E",
+            "name": "Necklace Assembly",
+            "tags": [
+                "brute force",
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "greedy",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 42,
+            "contestId": "1367"
+        },
+        {
+            "_id": "1365E",
+            "index": "E",
+            "name": "Maximum Subsequence Value",
+            "tags": [
+                "brute force",
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 60,
+            "contestId": "1365"
+        },
+        {
+            "_id": "1361B",
+            "index": "B",
+            "name": "Johnny and Grandmaster",
+            "tags": [
+                "greedy",
+                "implementation",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 25,
+            "contestId": "1361"
+        },
+        {
+            "_id": "1360G",
+            "index": "G",
+            "name": "A/B Matrix",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 68,
+            "contestId": "1360"
+        },
+        {
+            "_id": "1358D",
+            "index": "D",
+            "name": "The Best Vacation",
+            "tags": [
+                "binary search",
+                "brute force",
+                "greedy",
+                "implementation",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 56,
+            "contestId": "1358"
+        },
+        {
+            "_id": "1354D",
+            "index": "D",
+            "name": "Multiset",
+            "tags": [
+                "binary search",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 88,
+            "contestId": "1354"
+        },
+        {
+            "_id": "1353E",
+            "index": "E",
+            "name": "K-periodic Garland",
+            "tags": [
+                "brute force",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 53,
+            "contestId": "1353"
+        },
+        {
+            "_id": "1348D",
+            "index": "D",
+            "name": "Phoenix and Science",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 76,
+            "contestId": "1348"
+        },
+        {
+            "_id": "1342D",
+            "index": "D",
+            "name": "Multiple Testcases",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "data structures",
+                "greedy",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "1342"
+        },
+        {
+            "_id": "1328E",
+            "index": "E",
+            "name": "Tree Queries",
+            "tags": [
+                "dfs and similar",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 142,
+            "contestId": "1328"
+        },
+        {
+            "_id": "1313C2",
+            "index": "C2",
+            "name": "Skyscrapers (hard version)",
+            "tags": [
+                "data structures",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 59,
+            "contestId": "1313"
+        },
+        {
+            "_id": "1311F",
+            "index": "F",
+            "name": "Moving Points",
+            "tags": [
+                "data structures",
+                "divide and conquer",
+                "implementation",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 51,
+            "contestId": "1311"
+        },
+        {
+            "_id": "1307D",
+            "index": "D",
+            "name": "Cow and Fields",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dfs and similar",
+                "graphs",
+                "greedy",
+                "shortest paths",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 67,
+            "contestId": "1307"
+        },
+        {
+            "_id": "1305D",
+            "index": "D",
+            "name": "Kuroni and the Celebration",
+            "tags": [
+                "constructive algorithms",
+                "dfs and similar",
+                "interactive",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 38,
+            "contestId": "1305"
+        },
+        {
+            "_id": "1303D",
+            "index": "D",
+            "name": "Fill The Bag",
+            "tags": [
+                "bitmasks",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 121,
+            "contestId": "1303"
+        },
+        {
+            "_id": "1294E",
+            "index": "E",
+            "name": "Obtain a Permutation",
+            "tags": [
+                "greedy",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "1294"
+        },
+        {
+            "_id": "1285D",
+            "index": "D",
+            "name": "Dr. Evil Underscores",
+            "tags": [
+                "bitmasks",
+                "brute force",
+                "dfs and similar",
+                "divide and conquer",
+                "dp",
+                "greedy",
+                "strings",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 81,
+            "contestId": "1285"
+        },
+        {
+            "_id": "1277D",
+            "index": "D",
+            "name": "Let's Play the Words?",
+            "tags": [
+                "data structures",
+                "hashing",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "1277"
+        },
+        {
+            "_id": "1276B",
+            "index": "B",
+            "name": "Two Fairs",
+            "tags": [
+                "combinatorics",
+                "dfs and similar",
+                "dsu",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "1276"
+        },
+        {
+            "_id": "1272E",
+            "index": "E",
+            "name": "Nearest Opposite Parity",
+            "tags": [
+                "dfs and similar",
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 85,
+            "contestId": "1272"
+        },
+        {
+            "_id": "1270D",
+            "index": "D",
+            "name": "Strange Device",
+            "tags": [
+                "constructive algorithms",
+                "interactive",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "1270"
+        },
+        {
+            "_id": "1264B",
+            "index": "B",
+            "name": "Beautiful Sequence",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "1264"
+        },
+        {
+            "_id": "1260D",
+            "index": "D",
+            "name": "A Game with Traps",
+            "tags": [
+                "binary search",
+                "dp",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 24,
+            "contestId": "1260"
+        },
+        {
+            "_id": "1251D",
+            "index": "D",
+            "name": "Salary Changing",
+            "tags": [
+                "binary search",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 44,
+            "contestId": "1251"
+        },
+        {
+            "_id": "1245D",
+            "index": "D",
+            "name": "Shichikuji and Power Grid",
+            "tags": [
+                "dsu",
+                "graphs",
+                "greedy",
+                "shortest paths",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 189,
+            "contestId": "1245"
+        },
+        {
+            "_id": "1242B",
+            "index": "B",
+            "name": "0-1 MST",
+            "tags": [
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 106,
+            "contestId": "1242"
+        },
+        {
+            "_id": "1238D",
+            "index": "D",
+            "name": "AB-string",
+            "tags": [
+                "binary search",
+                "combinatorics",
+                "dp",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 31,
+            "contestId": "1238"
+        },
+        {
+            "_id": "1237C2",
+            "index": "C2",
+            "name": "Balanced Removals (Harder)",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "divide and conquer",
+                "greedy",
+                "implementation",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 41,
+            "contestId": "1237"
+        },
+        {
+            "_id": "1228D",
+            "index": "D",
+            "name": "Complete Tripartite",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "graphs",
+                "hashing",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "1228"
+        },
+        {
+            "_id": "1220D",
+            "index": "D",
+            "name": "Alex and Julian",
+            "tags": [
+                "bitmasks",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "1220"
+        },
+        {
+            "_id": "1216E1",
+            "index": "E1",
+            "name": "Numerical Sequence (easy version)",
+            "tags": [
+                "binary search",
+                "brute force",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "1216"
+        },
+        {
+            "_id": "1214D",
+            "index": "D",
+            "name": "Treasure Island",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "flows",
+                "hashing"
+            ],
+            "rating": 1900,
+            "frequency": 25,
+            "contestId": "1214"
+        },
+        {
+            "_id": "1213E",
+            "index": "E",
+            "name": "Two Small Strings",
+            "tags": [
+                "brute force",
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 43,
+            "contestId": "1213"
+        },
+        {
+            "_id": "1208D",
+            "index": "D",
+            "name": "Restore Permutation",
+            "tags": [
+                "binary search",
+                "data structures",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 36,
+            "contestId": "1208"
+        },
+        {
+            "_id": "1207E",
+            "index": "E",
+            "name": "XOR Guessing",
+            "tags": [
+                "bitmasks",
+                "interactive",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 41,
+            "contestId": "1207"
+        },
+        {
+            "_id": "1205B",
+            "index": "B",
+            "name": "Shortest Cycle",
+            "tags": [
+                "bitmasks",
+                "brute force",
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 46,
+            "contestId": "1205"
+        },
+        {
+            "_id": "1202D",
+            "index": "D",
+            "name": "Print a 1337-string...",
+            "tags": [
+                "combinatorics",
+                "constructive algorithms",
+                "math",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "1202"
+        },
+        {
+            "_id": "1200D",
+            "index": "D",
+            "name": "White Lines",
+            "tags": [
+                "brute force",
+                "data structures",
+                "dp",
+                "implementation",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "1200"
+        },
+        {
+            "_id": "1197D",
+            "index": "D",
+            "name": "Yet Another Subarray Problem",
+            "tags": [
+                "dp",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 41,
+            "contestId": "1197"
+        },
+        {
+            "_id": "1184E1",
+            "index": "E1",
+            "name": "Daleks' Invasion (easy)",
+            "tags": [
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "1184"
+        },
+        {
+            "_id": "1183H",
+            "index": "H",
+            "name": "Subsequences (hard version)",
+            "tags": [
+                "dp",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "1183"
+        },
+        {
+            "_id": "1181C",
+            "index": "C",
+            "name": "Flag",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "dp",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 20,
+            "contestId": "1181"
+        },
+        {
+            "_id": "1178E",
+            "index": "E",
+            "name": "Archaeology",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "greedy",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 25,
+            "contestId": "1178"
+        },
+        {
+            "_id": "1175D",
+            "index": "D",
+            "name": "Array Splitting",
+            "tags": [
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 54,
+            "contestId": "1175"
+        },
+        {
+            "_id": "1174D",
+            "index": "D",
+            "name": "Ehab and the Expected XOR Problem",
+            "tags": [
+                "bitmasks",
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "1174"
+        },
+        {
+            "_id": "1172B",
+            "index": "B",
+            "name": "Nauuo and Circle",
+            "tags": [
+                "combinatorics",
+                "dfs and similar",
+                "dp",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "1172"
+        },
+        {
+            "_id": "1168B",
+            "index": "B",
+            "name": "Good Triple",
+            "tags": [
+                "brute force",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "1168"
+        },
+        {
+            "_id": "1163C2",
+            "index": "C2",
+            "name": "Power Transmission (Hard Edition)",
+            "tags": [
+                "data structures",
+                "geometry",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 16,
+            "contestId": "1163"
+        },
+        {
+            "_id": "1163C1",
+            "index": "C1",
+            "name": "Power Transmission (Easy Edition)",
+            "tags": [
+                "brute force",
+                "geometry"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "1163"
+        },
+        {
+            "_id": "1157D",
+            "index": "D",
+            "name": "N Problems During K Days",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "1157"
+        },
+        {
+            "_id": "1155D",
+            "index": "D",
+            "name": "Beautiful Array",
+            "tags": [
+                "brute force",
+                "data structures",
+                "divide and conquer",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 71,
+            "contestId": "1155"
+        },
+        {
+            "_id": "1153D",
+            "index": "D",
+            "name": "Serval and Rooted Tree",
+            "tags": [
+                "binary search",
+                "dfs and similar",
+                "dp",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 41,
+            "contestId": "1153"
+        },
+        {
+            "_id": "1147B",
+            "index": "B",
+            "name": "Chladni Figure",
+            "tags": [
+                "brute force",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "1147"
+        },
+        {
+            "_id": "1144E",
+            "index": "E",
+            "name": "Median String",
+            "tags": [
+                "bitmasks",
+                "math",
+                "number theory",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "1144"
+        },
+        {
+            "_id": "1141G",
+            "index": "G",
+            "name": "Privatization of Roads in Treeland",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "dfs and similar",
+                "graphs",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "1141"
+        },
+        {
+            "_id": "1141F2",
+            "index": "F2",
+            "name": "Same Sum Blocks (Hard)",
+            "tags": [
+                "data structures",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 45,
+            "contestId": "1141"
+        },
+        {
+            "_id": "1141F1",
+            "index": "F1",
+            "name": "Same Sum Blocks (Easy)",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "1141"
+        },
+        {
+            "_id": "1133F2",
+            "index": "F2",
+            "name": "Spanning Tree with One Fixed Degree",
+            "tags": [
+                "constructive algorithms",
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 30,
+            "contestId": "1133"
+        },
+        {
+            "_id": "1120A",
+            "index": "A",
+            "name": "Diana and Liana",
+            "tags": [
+                "greedy",
+                "implementation",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "1120"
+        },
+        {
+            "_id": "1119E",
+            "index": "E",
+            "name": "Pavel and Triangles",
+            "tags": [
+                "brute force",
+                "dp",
+                "fft",
+                "greedy",
+                "ternary search"
+            ],
+            "rating": 1900,
+            "frequency": 29,
+            "contestId": "1119"
+        },
+        {
+            "_id": "1117C",
+            "index": "C",
+            "name": "Magic Ship",
+            "tags": [
+                "binary search"
+            ],
+            "rating": 1900,
+            "frequency": 113,
+            "contestId": "1117"
+        },
+        {
+            "_id": "1114D",
+            "index": "D",
+            "name": "Flood Fill",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 90,
+            "contestId": "1114"
+        },
+        {
+            "_id": "1105D",
+            "index": "D",
+            "name": "Kilani and the Game",
+            "tags": [
+                "dfs and similar",
+                "graphs",
+                "implementation",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 27,
+            "contestId": "1105"
+        },
+        {
+            "_id": "1095F",
+            "index": "F",
+            "name": "Make It Connected",
+            "tags": [
+                "dsu",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 74,
+            "contestId": "1095"
+        },
+        {
+            "_id": "1095E",
+            "index": "E",
+            "name": "Almost Regular Bracket Sequence",
+            "tags": [
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 46,
+            "contestId": "1095"
+        },
+        {
+            "_id": "1092F",
+            "index": "F",
+            "name": "Tree with Maximum Cost",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 165,
+            "contestId": "1092"
+        },
+        {
+            "_id": "1090B",
+            "index": "B",
+            "name": "LaTeX Expert",
+            "tags": [],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "1090"
+        },
+        {
+            "_id": "1089F",
+            "index": "F",
+            "name": "Fractions",
+            "tags": [
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "1089"
+        },
+        {
+            "_id": "1081E",
+            "index": "E",
+            "name": "Missing Numbers",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "greedy",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 14,
+            "contestId": "1081"
+        },
+        {
+            "_id": "1077F1",
+            "index": "F1",
+            "name": "Pictures with Kittens (easy version)",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 72,
+            "contestId": "1077"
+        },
+        {
+            "_id": "1076E",
+            "index": "E",
+            "name": "Vasya and a Tree",
+            "tags": [
+                "data structures",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "1076"
+        },
+        {
+            "_id": "1067A",
+            "index": "A",
+            "name": "Array Without Local Maximums ",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "1067"
+        },
+        {
+            "_id": "1063C",
+            "index": "C",
+            "name": "Dwarves, Hats and Extrasensory Abilities",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "geometry",
+                "interactive"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "1063"
+        },
+        {
+            "_id": "1060D",
+            "index": "D",
+            "name": "Social Circles",
+            "tags": [
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "1060"
+        },
+        {
+            "_id": "1055C",
+            "index": "C",
+            "name": "Lucky Days",
+            "tags": [
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "1055"
+        },
+        {
+            "_id": "1054D",
+            "index": "D",
+            "name": "Changing Array",
+            "tags": [
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "1054"
+        },
+        {
+            "_id": "1044B",
+            "index": "B",
+            "name": "Intersecting Subtrees",
+            "tags": [
+                "dfs and similar",
+                "interactive",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "1044"
+        },
+        {
+            "_id": "1043E",
+            "index": "E",
+            "name": "Train Hard, Win Easy",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "1043"
+        },
+        {
+            "_id": "1041E",
+            "index": "E",
+            "name": "Tree Reconstruction",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 18,
+            "contestId": "1041"
+        },
+        {
+            "_id": "1036C",
+            "index": "C",
+            "name": "Classy Numbers",
+            "tags": [
+                "combinatorics",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 228,
+            "contestId": "1036"
+        },
+        {
+            "_id": "1032D",
+            "index": "D",
+            "name": "Barcelonian Distance",
+            "tags": [
+                "geometry",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "1032"
+        },
+        {
+            "_id": "1031D",
+            "index": "D",
+            "name": "Minimum path",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "1031"
+        },
+        {
+            "_id": "1029D",
+            "index": "D",
+            "name": "Concatenated Multiples",
+            "tags": [
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 30,
+            "contestId": "1029"
+        },
+        {
+            "_id": "1017D",
+            "index": "D",
+            "name": "The Wu",
+            "tags": [
+                "bitmasks",
+                "brute force",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "1017"
+        },
+        {
+            "_id": "1015E2",
+            "index": "E2",
+            "name": "Stars Drawing (Hard Edition)",
+            "tags": [
+                "binary search",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 31,
+            "contestId": "1015"
+        },
+        {
+            "_id": "1012C",
+            "index": "C",
+            "name": "Hills",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 34,
+            "contestId": "1012"
+        },
+        {
+            "_id": "1012B",
+            "index": "B",
+            "name": "Chemical table",
+            "tags": [
+                "constructive algorithms",
+                "dfs and similar",
+                "dsu",
+                "graphs",
+                "matrices"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "1012"
+        },
+        {
+            "_id": "1000D",
+            "index": "D",
+            "name": "Yet Another Problem On a Subsequence",
+            "tags": [
+                "combinatorics",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 37,
+            "contestId": "1000"
+        },
+        {
+            "_id": "999D",
+            "index": "D",
+            "name": "Equalize the Remainders",
+            "tags": [
+                "data structures",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "999"
+        },
+        {
+            "_id": "993B",
+            "index": "B",
+            "name": "Open Communication",
+            "tags": [
+                "bitmasks",
+                "brute force"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "993"
+        },
+        {
+            "_id": "982D",
+            "index": "D",
+            "name": "Shark",
+            "tags": [
+                "brute force",
+                "data structures",
+                "dsu",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "982"
+        },
+        {
+            "_id": "981D",
+            "index": "D",
+            "name": "Bookshelves",
+            "tags": [
+                "bitmasks",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "981"
+        },
+        {
+            "_id": "965D",
+            "index": "D",
+            "name": "Single-use Stones",
+            "tags": [
+                "binary search",
+                "flows",
+                "greedy",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 37,
+            "contestId": "965"
+        },
+        {
+            "_id": "961E",
+            "index": "E",
+            "name": "Tufurama",
+            "tags": [
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "961"
+        },
+        {
+            "_id": "959E",
+            "index": "E",
+            "name": "Mahmoud and Ehab and the xor-MST",
+            "tags": [
+                "bitmasks",
+                "dp",
+                "graphs",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 24,
+            "contestId": "959"
+        },
+        {
+            "_id": "959D",
+            "index": "D",
+            "name": "Mahmoud and Ehab and another array construction task",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "959"
+        },
+        {
+            "_id": "952B",
+            "index": "B",
+            "name": "A Map of the Cat",
+            "tags": [
+                "brute force",
+                "interactive"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "952"
+        },
+        {
+            "_id": "949C",
+            "index": "C",
+            "name": "Data Center Maintenance",
+            "tags": [
+                "dfs and similar",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "949"
+        },
+        {
+            "_id": "935D",
+            "index": "D",
+            "name": "Fafa and Ancient Alphabet",
+            "tags": [
+                "math",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "935"
+        },
+        {
+            "_id": "930C",
+            "index": "C",
+            "name": "Teodor is not a liar!",
+            "tags": [
+                "data structures",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "930"
+        },
+        {
+            "_id": "928D",
+            "index": "D",
+            "name": "Autocompletion",
+            "tags": [
+                "*special",
+                "strings",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "928"
+        },
+        {
+            "_id": "928C",
+            "index": "C",
+            "name": "Dependency management",
+            "tags": [
+                "*special",
+                "graphs",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "928"
+        },
+        {
+            "_id": "926E",
+            "index": "E",
+            "name": "Merge Equal Elements",
+            "tags": [
+                "constructive algorithms",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "926"
+        },
+        {
+            "_id": "914D",
+            "index": "D",
+            "name": "Bash and a Tough Math Puzzle",
+            "tags": [
+                "data structures",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 64,
+            "contestId": "914"
+        },
+        {
+            "_id": "909E",
+            "index": "E",
+            "name": "Coprocessor",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "909"
+        },
+        {
+            "_id": "894C",
+            "index": "C",
+            "name": "Marco and GCD Sequence",
+            "tags": [
+                "constructive algorithms",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 19,
+            "contestId": "894"
+        },
+        {
+            "_id": "893D",
+            "index": "D",
+            "name": "Credit Card",
+            "tags": [
+                "data structures",
+                "dp",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 12,
+            "contestId": "893"
+        },
+        {
+            "_id": "883I",
+            "index": "I",
+            "name": "Photo Processing",
+            "tags": [
+                "binary search",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 45,
+            "contestId": "883"
+        },
+        {
+            "_id": "883G",
+            "index": "G",
+            "name": "Orientation of Edges",
+            "tags": [
+                "dfs and similar",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "883"
+        },
+        {
+            "_id": "865B",
+            "index": "B",
+            "name": "Ordering Pizza",
+            "tags": [
+                "binary search",
+                "sortings",
+                "ternary search"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "865"
+        },
+        {
+            "_id": "862C",
+            "index": "C",
+            "name": "Mahmoud and Ehab and the xor",
+            "tags": [
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "862"
+        },
+        {
+            "_id": "848B",
+            "index": "B",
+            "name": "Rooter's Song",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "geometry",
+                "implementation",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "848"
+        },
+        {
+            "_id": "847I",
+            "index": "I",
+            "name": "Noise Level",
+            "tags": [
+                "dfs and similar",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "847"
+        },
+        {
+            "_id": "846D",
+            "index": "D",
+            "name": "Monitor",
+            "tags": [
+                "binary search",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "846"
+        },
+        {
+            "_id": "839B",
+            "index": "B",
+            "name": "Game of the Rows",
+            "tags": [
+                "brute force",
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "839"
+        },
+        {
+            "_id": "835D",
+            "index": "D",
+            "name": "Palindromic characteristics",
+            "tags": [
+                "brute force",
+                "dp",
+                "hashing",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 106,
+            "contestId": "835"
+        },
+        {
+            "_id": "832D",
+            "index": "D",
+            "name": "Misha, Grisha and Underground",
+            "tags": [
+                "dfs and similar",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "832"
+        },
+        {
+            "_id": "819B",
+            "index": "B",
+            "name": "Mister B and PR Shifts",
+            "tags": [
+                "data structures",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 10,
+            "contestId": "819"
+        },
+        {
+            "_id": "818E",
+            "index": "E",
+            "name": "Card Game Again",
+            "tags": [
+                "binary search",
+                "data structures",
+                "number theory",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "818"
+        },
+        {
+            "_id": "817D",
+            "index": "D",
+            "name": "Imbalanced Array",
+            "tags": [
+                "data structures",
+                "divide and conquer",
+                "dsu",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 55,
+            "contestId": "817"
+        },
+        {
+            "_id": "811C",
+            "index": "C",
+            "name": "Vladik and Memorable Trip",
+            "tags": [
+                "dp",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 16,
+            "contestId": "811"
+        },
+        {
+            "_id": "808D",
+            "index": "D",
+            "name": "Array Division",
+            "tags": [
+                "binary search",
+                "data structures",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 58,
+            "contestId": "808"
+        },
+        {
+            "_id": "803D",
+            "index": "D",
+            "name": "Magazine Ad",
+            "tags": [
+                "binary search",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 45,
+            "contestId": "803"
+        },
+        {
+            "_id": "803C",
+            "index": "C",
+            "name": "Maximal GCD",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 54,
+            "contestId": "803"
+        },
+        {
+            "_id": "796C",
+            "index": "C",
+            "name": "Bank Hacking",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "dp",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "796"
+        },
+        {
+            "_id": "792D",
+            "index": "D",
+            "name": "Paths in a Complete Binary Tree",
+            "tags": [
+                "bitmasks",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "792"
+        },
+        {
+            "_id": "784F",
+            "index": "F",
+            "name": "Crunching Numbers Just for You",
+            "tags": [
+                "*special",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "784"
+        },
+        {
+            "_id": "784D",
+            "index": "D",
+            "name": "Touchy-Feely Palindromes",
+            "tags": [
+                "*special",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "784"
+        },
+        {
+            "_id": "780D",
+            "index": "D",
+            "name": "Innokenty and a Football League",
+            "tags": [
+                "2-sat",
+                "graphs",
+                "greedy",
+                "implementation",
+                "shortest paths",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "780"
+        },
+        {
+            "_id": "757C",
+            "index": "C",
+            "name": "Felicity is Coming!",
+            "tags": [
+                "data structures",
+                "hashing",
+                "sortings",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "757"
+        },
+        {
+            "_id": "750D",
+            "index": "D",
+            "name": "New Year and Fireworks",
+            "tags": [
+                "brute force",
+                "data structures",
+                "dfs and similar",
+                "dp",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "750"
+        },
+        {
+            "_id": "746E",
+            "index": "E",
+            "name": "Numbers Exchange",
+            "tags": [
+                "greedy",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "746"
+        },
+        {
+            "_id": "744B",
+            "index": "B",
+            "name": "Hongcow's Game",
+            "tags": [
+                "bitmasks",
+                "divide and conquer",
+                "interactive"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "744"
+        },
+        {
+            "_id": "739B",
+            "index": "B",
+            "name": "Alyona and a tree",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dfs and similar",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "739"
+        },
+        {
+            "_id": "731F",
+            "index": "F",
+            "name": "Video Cards",
+            "tags": [
+                "brute force",
+                "data structures",
+                "implementation",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "731"
+        },
+        {
+            "_id": "730J",
+            "index": "J",
+            "name": "Bottles",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 73,
+            "contestId": "730"
+        },
+        {
+            "_id": "729E",
+            "index": "E",
+            "name": "Subordinates",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "graphs",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "729"
+        },
+        {
+            "_id": "724D",
+            "index": "D",
+            "name": "Dense Subsequence",
+            "tags": [
+                "data structures",
+                "greedy",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "724"
+        },
+        {
+            "_id": "722D",
+            "index": "D",
+            "name": "Generating Sets",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dfs and similar",
+                "greedy",
+                "strings",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "722"
+        },
+        {
+            "_id": "717E",
+            "index": "E",
+            "name": "Paint it really, really dark gray",
+            "tags": [
+                "dfs and similar"
+            ],
+            "rating": 1900,
+            "frequency": 12,
+            "contestId": "717"
+        },
+        {
+            "_id": "717D",
+            "index": "D",
+            "name": "Dexterina\u2019s Lab",
+            "tags": [
+                "games",
+                "matrices",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "717"
+        },
+        {
+            "_id": "711D",
+            "index": "D",
+            "name": "Directed Roads",
+            "tags": [
+                "combinatorics",
+                "dfs and similar",
+                "graphs",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 45,
+            "contestId": "711"
+        },
+        {
+            "_id": "708B",
+            "index": "B",
+            "name": "Recover the String",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "708"
+        },
+        {
+            "_id": "702D",
+            "index": "D",
+            "name": "Road to Post Office",
+            "tags": [
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 30,
+            "contestId": "702"
+        },
+        {
+            "_id": "700A",
+            "index": "A",
+            "name": "As Fast As Possible",
+            "tags": [
+                "binary search",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 11,
+            "contestId": "700"
+        },
+        {
+            "_id": "691E",
+            "index": "E",
+            "name": "Xor-sequences",
+            "tags": [
+                "matrices"
+            ],
+            "rating": 1900,
+            "frequency": 36,
+            "contestId": "691"
+        },
+        {
+            "_id": "687C",
+            "index": "C",
+            "name": "The Values You Can Make",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "687"
+        },
+        {
+            "_id": "685B",
+            "index": "B",
+            "name": "Kay and Snowflake",
+            "tags": [
+                "data structures",
+                "dfs and similar",
+                "dp",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 34,
+            "contestId": "685"
+        },
+        {
+            "_id": "682D",
+            "index": "D",
+            "name": "Alyona and Strings",
+            "tags": [
+                "dp",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "682"
+        },
+        {
+            "_id": "660D",
+            "index": "D",
+            "name": "Number of Parallelograms",
+            "tags": [
+                "geometry"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "660"
+        },
+        {
+            "_id": "656F",
+            "index": "F",
+            "name": "Ace It!",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "656"
+        },
+        {
+            "_id": "656A",
+            "index": "A",
+            "name": "Da Vinci Powers",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "656"
+        },
+        {
+            "_id": "653C",
+            "index": "C",
+            "name": "Bear and Up-Down",
+            "tags": [
+                "brute force",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "653"
+        },
+        {
+            "_id": "650B",
+            "index": "B",
+            "name": "Image Preview",
+            "tags": [
+                "binary search",
+                "brute force",
+                "dp",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "650"
+        },
+        {
+            "_id": "633C",
+            "index": "C",
+            "name": "Spy Syndrome 2",
+            "tags": [
+                "data structures",
+                "dp",
+                "hashing",
+                "implementation",
+                "sortings",
+                "string suffix structures",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "633"
+        },
+        {
+            "_id": "630E",
+            "index": "E",
+            "name": "A rectangle",
+            "tags": [
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "630"
+        },
+        {
+            "_id": "622D",
+            "index": "D",
+            "name": "Optimal Number Permutation",
+            "tags": [
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "622"
+        },
+        {
+            "_id": "613B",
+            "index": "B",
+            "name": "Skills",
+            "tags": [
+                "binary search",
+                "brute force",
+                "dp",
+                "greedy",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "613"
+        },
+        {
+            "_id": "607B",
+            "index": "B",
+            "name": "Zuma",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 295,
+            "contestId": "607"
+        },
+        {
+            "_id": "599D",
+            "index": "D",
+            "name": "Spongebob and Squares",
+            "tags": [
+                "brute force",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "599"
+        },
+        {
+            "_id": "597C",
+            "index": "C",
+            "name": "Subsequences",
+            "tags": [
+                "data structures",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 113,
+            "contestId": "597"
+        },
+        {
+            "_id": "582B",
+            "index": "B",
+            "name": "Once Again...",
+            "tags": [
+                "constructive algorithms",
+                "dp",
+                "matrices"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "582"
+        },
+        {
+            "_id": "577B",
+            "index": "B",
+            "name": "Modulo Sum",
+            "tags": [
+                "combinatorics",
+                "data structures",
+                "dp",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 194,
+            "contestId": "577"
+        },
+        {
+            "_id": "568B",
+            "index": "B",
+            "name": "Symmetric and Transitive",
+            "tags": [
+                "combinatorics",
+                "dp",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "568"
+        },
+        {
+            "_id": "566D",
+            "index": "D",
+            "name": "Restructuring Company",
+            "tags": [
+                "data structures",
+                "dsu"
+            ],
+            "rating": 1900,
+            "frequency": 48,
+            "contestId": "566"
+        },
+        {
+            "_id": "558C",
+            "index": "C",
+            "name": "Amr and Chemistry",
+            "tags": [
+                "brute force",
+                "graphs",
+                "greedy",
+                "math",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 24,
+            "contestId": "558"
+        },
+        {
+            "_id": "557C",
+            "index": "C",
+            "name": "Arthur and Table",
+            "tags": [
+                "brute force",
+                "data structures",
+                "dp",
+                "greedy",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "557"
+        },
+        {
+            "_id": "553B",
+            "index": "B",
+            "name": "Kyoya and Permutation",
+            "tags": [
+                "binary search",
+                "combinatorics",
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "553"
+        },
+        {
+            "_id": "552D",
+            "index": "D",
+            "name": "Vanya and Triangles",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "data structures",
+                "geometry",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "552"
+        },
+        {
+            "_id": "552C",
+            "index": "C",
+            "name": "Vanya and Scales",
+            "tags": [
+                "brute force",
+                "dp",
+                "greedy",
+                "math",
+                "meet-in-the-middle",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 36,
+            "contestId": "552"
+        },
+        {
+            "_id": "550D",
+            "index": "D",
+            "name": "Regular Bridge",
+            "tags": [
+                "constructive algorithms",
+                "graphs",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 14,
+            "contestId": "550"
+        },
+        {
+            "_id": "549D",
+            "index": "D",
+            "name": "Haar Features",
+            "tags": [
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "549"
+        },
+        {
+            "_id": "547B",
+            "index": "B",
+            "name": "Mike and Feet",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dp",
+                "dsu"
+            ],
+            "rating": 1900,
+            "frequency": 81,
+            "contestId": "547"
+        },
+        {
+            "_id": "540D",
+            "index": "D",
+            "name": "Bad Luck Island",
+            "tags": [
+                "dp",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 52,
+            "contestId": "540"
+        },
+        {
+            "_id": "535D",
+            "index": "D",
+            "name": "Tavas and Malekas",
+            "tags": [
+                "greedy",
+                "hashing",
+                "string suffix structures",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "535"
+        },
+        {
+            "_id": "535C",
+            "index": "C",
+            "name": "Tavas and Karafs",
+            "tags": [
+                "binary search",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "535"
+        },
+        {
+            "_id": "534D",
+            "index": "D",
+            "name": "Handshakes",
+            "tags": [
+                "binary search",
+                "constructive algorithms",
+                "data structures",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "534"
+        },
+        {
+            "_id": "529B",
+            "index": "B",
+            "name": "Group Photo 2 (online mirror version)",
+            "tags": [
+                "brute force",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "529"
+        },
+        {
+            "_id": "524C",
+            "index": "C",
+            "name": "The Art of Dealing with ATM",
+            "tags": [
+                "binary search",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "524"
+        },
+        {
+            "_id": "510D",
+            "index": "D",
+            "name": "Fox And Jumping",
+            "tags": [
+                "bitmasks",
+                "brute force",
+                "dp",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 72,
+            "contestId": "510"
+        },
+        {
+            "_id": "505C",
+            "index": "C",
+            "name": "Mr. Kitayuta, the Treasure Hunter",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 80,
+            "contestId": "505"
+        },
+        {
+            "_id": "500D",
+            "index": "D",
+            "name": "New Year Santa Network",
+            "tags": [
+                "combinatorics",
+                "dfs and similar",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "500"
+        },
+        {
+            "_id": "496D",
+            "index": "D",
+            "name": "Tennis Game",
+            "tags": [
+                "binary search"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "496"
+        },
+        {
+            "_id": "490D",
+            "index": "D",
+            "name": "Chocolate",
+            "tags": [
+                "brute force",
+                "dfs and similar",
+                "math",
+                "meet-in-the-middle",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "490"
+        },
+        {
+            "_id": "488B",
+            "index": "B",
+            "name": "Candy Boxes",
+            "tags": [
+                "brute force",
+                "constructive algorithms",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "488"
+        },
+        {
+            "_id": "479E",
+            "index": "E",
+            "name": "Riding in a Lift",
+            "tags": [
+                "combinatorics",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "479"
+        },
+        {
+            "_id": "476D",
+            "index": "D",
+            "name": "Dreamoon and Sets",
+            "tags": [
+                "constructive algorithms",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 51,
+            "contestId": "476"
+        },
+        {
+            "_id": "472D",
+            "index": "D",
+            "name": "Design Tutorial: Inverse the Problem",
+            "tags": [
+                "dfs and similar",
+                "dsu",
+                "shortest paths",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 92,
+            "contestId": "472"
+        },
+        {
+            "_id": "470E",
+            "index": "E",
+            "name": "Chessboard",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "470"
+        },
+        {
+            "_id": "470D",
+            "index": "D",
+            "name": "Caesar Cipher",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "470"
+        },
+        {
+            "_id": "470C",
+            "index": "C",
+            "name": "Eval",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "470"
+        },
+        {
+            "_id": "463D",
+            "index": "D",
+            "name": "Gargari and Permutations",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 39,
+            "contestId": "463"
+        },
+        {
+            "_id": "463C",
+            "index": "C",
+            "name": "Gargari and Bishops",
+            "tags": [
+                "greedy",
+                "hashing",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 60,
+            "contestId": "463"
+        },
+        {
+            "_id": "459E",
+            "index": "E",
+            "name": "Pashmak and Graph",
+            "tags": [
+                "dp",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 60,
+            "contestId": "459"
+        },
+        {
+            "_id": "459C",
+            "index": "C",
+            "name": "Pashmak and Buses",
+            "tags": [
+                "combinatorics",
+                "constructive algorithms",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "459"
+        },
+        {
+            "_id": "455B",
+            "index": "B",
+            "name": "A Lot of Games",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "games",
+                "implementation",
+                "strings",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 43,
+            "contestId": "455"
+        },
+        {
+            "_id": "452D",
+            "index": "D",
+            "name": "Washer, Dryer, Folder",
+            "tags": [
+                "greedy",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "452"
+        },
+        {
+            "_id": "448C",
+            "index": "C",
+            "name": "Painting Fence",
+            "tags": [
+                "divide and conquer",
+                "dp",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 88,
+            "contestId": "448"
+        },
+        {
+            "_id": "437D",
+            "index": "D",
+            "name": "The Child and Zoo",
+            "tags": [
+                "dsu",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "437"
+        },
+        {
+            "_id": "421D",
+            "index": "D",
+            "name": "Bug in Code",
+            "tags": [
+                "binary search",
+                "data structures",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "421"
+        },
+        {
+            "_id": "420C",
+            "index": "C",
+            "name": "Bug in Code",
+            "tags": [
+                "data structures",
+                "graphs",
+                "implementation",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "420"
+        },
+        {
+            "_id": "417D",
+            "index": "D",
+            "name": "Cunning Gena",
+            "tags": [
+                "bitmasks",
+                "dp",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "417"
+        },
+        {
+            "_id": "412E",
+            "index": "E",
+            "name": "E-mail Addresses",
+            "tags": [
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "412"
+        },
+        {
+            "_id": "409F",
+            "index": "F",
+            "name": "000001",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "409"
+        },
+        {
+            "_id": "404D",
+            "index": "D",
+            "name": "Minesweeper 1D",
+            "tags": [
+                "dp",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 20,
+            "contestId": "404"
+        },
+        {
+            "_id": "388B",
+            "index": "B",
+            "name": "Fox and Minimal path",
+            "tags": [
+                "bitmasks",
+                "constructive algorithms",
+                "graphs",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "388"
+        },
+        {
+            "_id": "377B",
+            "index": "B",
+            "name": "Preparing for the Contest",
+            "tags": [
+                "binary search",
+                "data structures",
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "377"
+        },
+        {
+            "_id": "374C",
+            "index": "C",
+            "name": "Inna and Dima",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 11,
+            "contestId": "374"
+        },
+        {
+            "_id": "372B",
+            "index": "B",
+            "name": "Counting Rectangles is Fun",
+            "tags": [
+                "brute force",
+                "divide and conquer",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 16,
+            "contestId": "372"
+        },
+        {
+            "_id": "367B",
+            "index": "B",
+            "name": "Sereja ans Anagrams",
+            "tags": [
+                "binary search",
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "367"
+        },
+        {
+            "_id": "366C",
+            "index": "C",
+            "name": "Dima and Salad",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "366"
+        },
+        {
+            "_id": "362C",
+            "index": "C",
+            "name": "Insertion Sort",
+            "tags": [
+                "data structures",
+                "dp",
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 26,
+            "contestId": "362"
+        },
+        {
+            "_id": "359C",
+            "index": "C",
+            "name": "Prime Number",
+            "tags": [
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 16,
+            "contestId": "359"
+        },
+        {
+            "_id": "356B",
+            "index": "B",
+            "name": "Xenia and Hamming",
+            "tags": [
+                "implementation",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "356"
+        },
+        {
+            "_id": "353B",
+            "index": "B",
+            "name": "Two Heaps",
+            "tags": [
+                "combinatorics",
+                "constructive algorithms",
+                "greedy",
+                "implementation",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "353"
+        },
+        {
+            "_id": "351B",
+            "index": "B",
+            "name": "Jeff and Furik",
+            "tags": [
+                "combinatorics",
+                "dp",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 17,
+            "contestId": "351"
+        },
+        {
+            "_id": "343C",
+            "index": "C",
+            "name": "Read Time",
+            "tags": [
+                "binary search",
+                "greedy",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 12,
+            "contestId": "343"
+        },
+        {
+            "_id": "342C",
+            "index": "C",
+            "name": "Cupboard and Balloons",
+            "tags": [
+                "geometry"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "342"
+        },
+        {
+            "_id": "336B",
+            "index": "B",
+            "name": "Vasily the Bear and Fly",
+            "tags": [
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "336"
+        },
+        {
+            "_id": "335B",
+            "index": "B",
+            "name": "Palindrome",
+            "tags": [
+                "constructive algorithms",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "335"
+        },
+        {
+            "_id": "327D",
+            "index": "D",
+            "name": "Block Tower",
+            "tags": [
+                "constructive algorithms",
+                "dfs and similar",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 11,
+            "contestId": "327"
+        },
+        {
+            "_id": "321B",
+            "index": "B",
+            "name": "Ciel and Duel",
+            "tags": [
+                "dp",
+                "flows",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 33,
+            "contestId": "321"
+        },
+        {
+            "_id": "319B",
+            "index": "B",
+            "name": "Psychos in a Line",
+            "tags": [
+                "data structures",
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "319"
+        },
+        {
+            "_id": "309C",
+            "index": "C",
+            "name": "Memory for Arrays",
+            "tags": [
+                "binary search",
+                "bitmasks",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "309"
+        },
+        {
+            "_id": "294C",
+            "index": "C",
+            "name": "Shaass and Lights",
+            "tags": [
+                "combinatorics",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 37,
+            "contestId": "294"
+        },
+        {
+            "_id": "292E",
+            "index": "E",
+            "name": "Copying Data",
+            "tags": [
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 50,
+            "contestId": "292"
+        },
+        {
+            "_id": "292D",
+            "index": "D",
+            "name": "Connected Components",
+            "tags": [
+                "data structures",
+                "dfs and similar",
+                "dp",
+                "dsu"
+            ],
+            "rating": 1900,
+            "frequency": 43,
+            "contestId": "292"
+        },
+        {
+            "_id": "285D",
+            "index": "D",
+            "name": "Permutation Sum",
+            "tags": [
+                "bitmasks",
+                "combinatorics",
+                "dp",
+                "implementation",
+                "meet-in-the-middle"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "285"
+        },
+        {
+            "_id": "279E",
+            "index": "E",
+            "name": "Beautiful Decomposition",
+            "tags": [
+                "dp",
+                "games",
+                "greedy",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "279"
+        },
+        {
+            "_id": "261B",
+            "index": "B",
+            "name": "Maxim and Restaurant",
+            "tags": [
+                "dp",
+                "math",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 9,
+            "contestId": "261"
+        },
+        {
+            "_id": "258B",
+            "index": "B",
+            "name": "Little Elephant and Elections",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "258"
+        },
+        {
+            "_id": "257D",
+            "index": "D",
+            "name": "Sum",
+            "tags": [
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "257"
+        },
+        {
+            "_id": "250D",
+            "index": "D",
+            "name": "Building Bridge",
+            "tags": [
+                "geometry",
+                "ternary search",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "250"
+        },
+        {
+            "_id": "232B",
+            "index": "B",
+            "name": "Table",
+            "tags": [
+                "bitmasks",
+                "combinatorics",
+                "dp",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 20,
+            "contestId": "232"
+        },
+        {
+            "_id": "229C",
+            "index": "C",
+            "name": "Triangles",
+            "tags": [
+                "combinatorics",
+                "graphs",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "229"
+        },
+        {
+            "_id": "228E",
+            "index": "E",
+            "name": "The Road to Berland is Paved With Good Intentions",
+            "tags": [
+                "2-sat",
+                "dfs and similar",
+                "dsu",
+                "graphs"
+            ],
+            "rating": 1900,
+            "frequency": 23,
+            "contestId": "228"
+        },
+        {
+            "_id": "226B",
+            "index": "B",
+            "name": "Naughty Stone Piles",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 15,
+            "contestId": "226"
+        },
+        {
+            "_id": "223C",
+            "index": "C",
+            "name": "Partial Sums",
+            "tags": [
+                "combinatorics",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 13,
+            "contestId": "223"
+        },
+        {
+            "_id": "223B",
+            "index": "B",
+            "name": "Two Strings",
+            "tags": [
+                "data structures",
+                "dp",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "223"
+        },
+        {
+            "_id": "222E",
+            "index": "E",
+            "name": "Decoding Genome",
+            "tags": [
+                "dp",
+                "matrices"
+            ],
+            "rating": 1900,
+            "frequency": 65,
+            "contestId": "222"
+        },
+        {
+            "_id": "222D",
+            "index": "D",
+            "name": "Olympiad",
+            "tags": [
+                "binary search",
+                "greedy",
+                "sortings",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 12,
+            "contestId": "222"
+        },
+        {
+            "_id": "215D",
+            "index": "D",
+            "name": "Hot Days",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "215"
+        },
+        {
+            "_id": "213B",
+            "index": "B",
+            "name": "Numbers",
+            "tags": [
+                "combinatorics",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "213"
+        },
+        {
+            "_id": "208C",
+            "index": "C",
+            "name": "Police Station",
+            "tags": [
+                "dp",
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 19,
+            "contestId": "208"
+        },
+        {
+            "_id": "208B",
+            "index": "B",
+            "name": "Solitaire",
+            "tags": [
+                "dfs and similar",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "208"
+        },
+        {
+            "_id": "207B2",
+            "index": "B2",
+            "name": "Military Trainings",
+            "tags": [],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "207"
+        },
+        {
+            "_id": "199B",
+            "index": "B",
+            "name": "Special Olympics",
+            "tags": [
+                "geometry"
+            ],
+            "rating": 1900,
+            "frequency": 6,
+            "contestId": "199"
+        },
+        {
+            "_id": "195D",
+            "index": "D",
+            "name": "Analyzing Polyline",
+            "tags": [
+                "geometry",
+                "math",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "195"
+        },
+        {
+            "_id": "191C",
+            "index": "C",
+            "name": "Fools and Roads",
+            "tags": [
+                "data structures",
+                "dfs and similar",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 100,
+            "contestId": "191"
+        },
+        {
+            "_id": "190D",
+            "index": "D",
+            "name": "Non-Secret Cypher",
+            "tags": [
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 28,
+            "contestId": "190"
+        },
+        {
+            "_id": "180D",
+            "index": "D",
+            "name": "Name",
+            "tags": [
+                "greedy",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "180"
+        },
+        {
+            "_id": "178D2",
+            "index": "D2",
+            "name": "Magic Squares",
+            "tags": [],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "178"
+        },
+        {
+            "_id": "177E2",
+            "index": "E2",
+            "name": "Space Voyage",
+            "tags": [
+                "binary search"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "177"
+        },
+        {
+            "_id": "173C",
+            "index": "C",
+            "name": "Spiral Maximum",
+            "tags": [
+                "brute force",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "173"
+        },
+        {
+            "_id": "162D",
+            "index": "D",
+            "name": "Remove digits",
+            "tags": [
+                "*special"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "162"
+        },
+        {
+            "_id": "158E",
+            "index": "E",
+            "name": "Phone Talks",
+            "tags": [
+                "*special",
+                "dp",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "158"
+        },
+        {
+            "_id": "149D",
+            "index": "D",
+            "name": "Coloring Brackets",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 126,
+            "contestId": "149"
+        },
+        {
+            "_id": "148E",
+            "index": "E",
+            "name": "Porcelain",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 71,
+            "contestId": "148"
+        },
+        {
+            "_id": "144D",
+            "index": "D",
+            "name": "Missile Silos",
+            "tags": [
+                "data structures",
+                "dfs and similar",
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "144"
+        },
+        {
+            "_id": "138B",
+            "index": "B",
+            "name": "Digits Permutations",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "138"
+        },
+        {
+            "_id": "137D",
+            "index": "D",
+            "name": "Palindromes",
+            "tags": [
+                "dp",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "137"
+        },
+        {
+            "_id": "135C",
+            "index": "C",
+            "name": "Zero-One",
+            "tags": [
+                "constructive algorithms",
+                "games",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "135"
+        },
+        {
+            "_id": "134B",
+            "index": "B",
+            "name": "Pairs of Numbers",
+            "tags": [
+                "brute force",
+                "dfs and similar",
+                "math",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 22,
+            "contestId": "134"
+        },
+        {
+            "_id": "126A",
+            "index": "A",
+            "name": "Hot Bath",
+            "tags": [
+                "binary search",
+                "brute force",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 11,
+            "contestId": "126"
+        },
+        {
+            "_id": "121C",
+            "index": "C",
+            "name": "Lucky Permutation",
+            "tags": [
+                "brute force",
+                "combinatorics",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 4,
+            "contestId": "121"
+        },
+        {
+            "_id": "120J",
+            "index": "J",
+            "name": "Minimum Sum",
+            "tags": [
+                "divide and conquer",
+                "geometry",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "120"
+        },
+        {
+            "_id": "118C",
+            "index": "C",
+            "name": "Fancy Number",
+            "tags": [
+                "brute force",
+                "greedy",
+                "sortings",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 25,
+            "contestId": "118"
+        },
+        {
+            "_id": "111B",
+            "index": "B",
+            "name": "Petya and Divisors",
+            "tags": [
+                "binary search",
+                "data structures",
+                "number theory"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "111"
+        },
+        {
+            "_id": "109C",
+            "index": "C",
+            "name": "Lucky Tree",
+            "tags": [
+                "dp",
+                "dsu",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 35,
+            "contestId": "109"
+        },
+        {
+            "_id": "109B",
+            "index": "B",
+            "name": "Lucky Probability",
+            "tags": [
+                "brute force",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 14,
+            "contestId": "109"
+        },
+        {
+            "_id": "103C",
+            "index": "C",
+            "name": "Russian Roulette",
+            "tags": [
+                "constructive algorithms",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "103"
+        },
+        {
+            "_id": "95C",
+            "index": "C",
+            "name": "Volleyball",
+            "tags": [
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 31,
+            "contestId": "95"
+        },
+        {
+            "_id": "93B",
+            "index": "B",
+            "name": "End of Exams",
+            "tags": [
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 5,
+            "contestId": "93"
+        },
+        {
+            "_id": "72F",
+            "index": "F",
+            "name": "Oil",
+            "tags": [
+                "*special",
+                "greedy",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 1,
+            "contestId": "72"
+        },
+        {
+            "_id": "69D",
+            "index": "D",
+            "name": "Dot",
+            "tags": [
+                "dp",
+                "games"
+            ],
+            "rating": 1900,
+            "frequency": 2,
+            "contestId": "69"
+        },
+        {
+            "_id": "67D",
+            "index": "D",
+            "name": "Optical Experiment",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "67"
+        },
+        {
+            "_id": "63D",
+            "index": "D",
+            "name": "Dividing Island",
+            "tags": [
+                "constructive algorithms"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "63"
+        },
+        {
+            "_id": "61E",
+            "index": "E",
+            "name": "Enemy is weak",
+            "tags": [
+                "data structures",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 171,
+            "contestId": "61"
+        },
+        {
+            "_id": "57C",
+            "index": "C",
+            "name": "Array",
+            "tags": [
+                "combinatorics",
+                "math"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "57"
+        },
+        {
+            "_id": "55C",
+            "index": "C",
+            "name": "Pie or die",
+            "tags": [
+                "games"
+            ],
+            "rating": 1900,
+            "frequency": 18,
+            "contestId": "55"
+        },
+        {
+            "_id": "46E",
+            "index": "E",
+            "name": "Comb",
+            "tags": [
+                "data structures",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 7,
+            "contestId": "46"
+        },
+        {
+            "_id": "45D",
+            "index": "D",
+            "name": "Event Dates",
+            "tags": [
+                "greedy",
+                "meet-in-the-middle",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 18,
+            "contestId": "45"
+        },
+        {
+            "_id": "45C",
+            "index": "C",
+            "name": "Dancing Lessons",
+            "tags": [
+                "data structures"
+            ],
+            "rating": 1900,
+            "frequency": 8,
+            "contestId": "45"
+        },
+        {
+            "_id": "41E",
+            "index": "E",
+            "name": "3-cycles",
+            "tags": [
+                "constructive algorithms",
+                "graphs",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 20,
+            "contestId": "41"
+        },
+        {
+            "_id": "41D",
+            "index": "D",
+            "name": "Pawn",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 50,
+            "contestId": "41"
+        },
+        {
+            "_id": "38D",
+            "index": "D",
+            "name": "Vasya the Architect",
+            "tags": [
+                "implementation"
+            ],
+            "rating": 1900,
+            "frequency": 3,
+            "contestId": "38"
+        },
+        {
+            "_id": "37C",
+            "index": "C",
+            "name": "Old Berland Language",
+            "tags": [
+                "data structures",
+                "greedy",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 12,
+            "contestId": "37"
+        },
+        {
+            "_id": "27C",
+            "index": "C",
+            "name": "Unordered Subsequence",
+            "tags": [
+                "constructive algorithms",
+                "greedy"
+            ],
+            "rating": 1900,
+            "frequency": 30,
+            "contestId": "27"
+        },
+        {
+            "_id": "25D",
+            "index": "D",
+            "name": "Roads not only in Berland",
+            "tags": [
+                "dsu",
+                "graphs",
+                "trees"
+            ],
+            "rating": 1900,
+            "frequency": 271,
+            "contestId": "25"
+        },
+        {
+            "_id": "25C",
+            "index": "C",
+            "name": "Roads in Berland",
+            "tags": [
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 106,
+            "contestId": "25"
+        },
+        {
+            "_id": "22D",
+            "index": "D",
+            "name": "Segments",
+            "tags": [
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 24,
+            "contestId": "22"
+        },
+        {
+            "_id": "21A",
+            "index": "A",
+            "name": "Jabber ID",
+            "tags": [
+                "implementation",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 21,
+            "contestId": "21"
+        },
+        {
+            "_id": "20C",
+            "index": "C",
+            "name": "Dijkstra?",
+            "tags": [
+                "graphs",
+                "shortest paths"
+            ],
+            "rating": 1900,
+            "frequency": 772,
+            "contestId": "20"
+        },
+        {
+            "_id": "19B",
+            "index": "B",
+            "name": "Checkout Assistant",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 98,
+            "contestId": "19"
+        },
+        {
+            "_id": "16E",
+            "index": "E",
+            "name": "Fish",
+            "tags": [
+                "bitmasks",
+                "dp",
+                "probabilities"
+            ],
+            "rating": 1900,
+            "frequency": 139,
+            "contestId": "16"
+        },
+        {
+            "_id": "16D",
+            "index": "D",
+            "name": "Logging",
+            "tags": [
+                "implementation",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 18,
+            "contestId": "16"
+        },
+        {
+            "_id": "14E",
+            "index": "E",
+            "name": "Camels",
+            "tags": [
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 32,
+            "contestId": "14"
+        },
+        {
+            "_id": "14D",
+            "index": "D",
+            "name": "Two Paths",
+            "tags": [
+                "dfs and similar",
+                "dp",
+                "graphs",
+                "shortest paths",
+                "trees",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "14"
+        },
+        {
+            "_id": "9D",
+            "index": "D",
+            "name": "How many trees?",
+            "tags": [
+                "combinatorics",
+                "divide and conquer",
+                "dp"
+            ],
+            "rating": 1900,
+            "frequency": 96,
+            "contestId": "9"
+        },
+        {
+            "_id": "6E",
+            "index": "E",
+            "name": "Exposition",
+            "tags": [
+                "binary search",
+                "data structures",
+                "dsu",
+                "trees",
+                "two pointers"
+            ],
+            "rating": 1900,
+            "frequency": 53,
+            "contestId": "6"
+        },
+        {
+            "_id": "5C",
+            "index": "C",
+            "name": "Longest Regular Bracket Sequence",
+            "tags": [
+                "constructive algorithms",
+                "data structures",
+                "dp",
+                "greedy",
+                "sortings",
+                "strings"
+            ],
+            "rating": 1900,
+            "frequency": 281,
+            "contestId": "5"
+        },
+        {
+            "_id": "3B",
+            "index": "B",
+            "name": "Lorry",
+            "tags": [
+                "greedy",
+                "sortings"
+            ],
+            "rating": 1900,
+            "frequency": 78,
+            "contestId": "3"
+        }
+    ]
+}
